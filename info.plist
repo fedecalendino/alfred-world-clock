@@ -113,7 +113,7 @@ Environment Variables:
 
 ---
 
-Valid timezones: https://github.com/fedecalendino/alfred-world-clock/blob/main/pytz/pytz/__init__.py#L517</string>
+Valid timezones: https://github.com/fedecalendino/alfred-world-clock/blob/main/pytz/pytz/__init__.py#L532</string>
 	<key>uidata</key>
 	<dict>
 		<key>3F8E4DCC-0B66-40B7-837F-6487A406270D</key>
