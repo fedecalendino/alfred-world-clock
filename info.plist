@@ -8,19 +8,6 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>55EBCF59-4F73-43AB-95CF-5583C5A8A427</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>3F8E4DCC-0B66-40B7-837F-6487A406270D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>7438AC97-4E9D-4115-A7C0-111633204696</key>
 		<array>
 			<dict>
@@ -113,55 +100,6 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>utc</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>...</string>
-				<key>script</key>
-				<string>python3 ./utc.py $@</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>55EBCF59-4F73-43AB-95CF-5583C5A8A427</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Check time in multiple timezones 🌐️</string>
@@ -172,14 +110,7 @@
 			<key>xpos</key>
 			<integer>310</integer>
 			<key>ypos</key>
-			<integer>145</integer>
-		</dict>
-		<key>55EBCF59-4F73-43AB-95CF-5583C5A8A427</key>
-		<dict>
-			<key>xpos</key>
 			<integer>45</integer>
-			<key>ypos</key>
-			<integer>250</integer>
 		</dict>
 		<key>7438AC97-4E9D-4115-A7C0-111633204696</key>
 		<dict>
@@ -188,6 +119,11 @@
 			<key>ypos</key>
 			<integer>45</integer>
 		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>TIMEZONES</key>
+		<string>Europe/Prague,America/Argentina/Buenos_Aires</string>
 	</dict>
 	<key>version</key>
 	<string>1.0</string>
