@@ -1,0 +1,7 @@
+*pyc
+
+build/
+
+.venv/
+.idea/
+.tmp/
