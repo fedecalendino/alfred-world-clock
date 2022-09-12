@@ -1,6 +1,10 @@
 *pyc
+.DS_Store
 
+bin/
 build/
+dist/
+releases/
 
 .venv/
 .idea/
