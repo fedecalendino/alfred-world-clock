@@ -3,14 +3,13 @@
 [Alfred Workflow](https://www.alfredapp.com/workflows/) to check time in multiple timezones. 🌐️
 
 
-#### Set Up:
+#### Configuration:
 
-![vars example](./img/screenshots/vars.png)
+![vars example](./img/screenshots/config.png)
 
+TIMEZONES:
 
-Environment Variables:
-
-* TIMEZONES: Comma separated list of [timezones](https://github.com/fedecalendino/alfred-world-clock/blob/main/pytz/pytz/__init__.py#L532).
+Valid timezones can be found here: https://github.com/fedecalendino/alfred-world-clock/blob/main/timezones
 
 
 #### Usage:
