@@ -9,7 +9,12 @@ from pyflow import Workflow
 DATE_FORMAT = os.getenv("DATE_FORMAT", "%d %B, %Y")
 TIME_FORMAT = os.getenv("TIME_FORMAT", "%H%:%M:%S")
 
-TIMEZONES = os.getenv("TIMEZONES", "").split(",")
+TIMEZONES = list(
+    filter(
+        lambda timezone: len(timezone),
+        os.getenv("TIMEZONES", "").split("\n"),
+    )
+)
 
 
 def main(workflow):

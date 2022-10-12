@@ -6,6 +6,8 @@ build/
 dist/
 releases/
 
+prefs.plist
+
 .venv/
 .idea/
 .tmp/
