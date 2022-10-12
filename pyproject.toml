@@ -12,11 +12,11 @@ authors = [
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
-alfred-pyflow = "*"
+alfred-pyflow = "latest"
 pytz = "^2022.4"
 
 [tool.poetry.dev-dependencies]
-black = "22.10.0)"
+black = "22.10.0"
 pyinstaller = "5.5"
 
 [build-system]

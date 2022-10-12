@@ -1,12 +1,12 @@
 *pyc
 .DS_Store
 
+prefs.plist
+
 bin/
 build/
 dist/
 releases/
-
-prefs.plist
 
 .venv/
 .idea/
