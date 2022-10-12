@@ -17,7 +17,7 @@ echo
 
 echo "Building binaries..."
 echo
-./build.sh > /dev/null
+./_build.sh > /dev/null
 echo
 
 
