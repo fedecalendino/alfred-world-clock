@@ -67,7 +67,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>now</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -77,7 +77,7 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Calculating times…</string>
 				<key>script</key>
 				<string>/usr/bin/python3 ./dist/main.py $@</string>
 				<key>scriptargtype</key>
@@ -85,9 +85,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Display current time in different timezones</string>
 				<key>title</key>
-				<string></string>
+				<string>World Clock</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -134,6 +134,27 @@ Valid timezones can be found here: https://github.com/fedecalendino/alfred-world
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string>now</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Clock Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<string>America/Argentina/Buenos_Aires</string>
 				<key>required</key>
 				<true/>
@@ -145,7 +166,7 @@ Valid timezones can be found here: https://github.com/fedecalendino/alfred-world
 			<key>description</key>
 			<string>One timezone per line.</string>
 			<key>label</key>
-			<string>TIMEZONES</string>
+			<string>Timezones</string>
 			<key>type</key>
 			<string>textarea</string>
 			<key>variable</key>
@@ -153,7 +174,7 @@ Valid timezones can be found here: https://github.com/fedecalendino/alfred-world
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.5.0</string>
+	<string>1.5.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/fedecalendino/alfred-world-clock</string>
 </dict>
