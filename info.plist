@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>com.github.fedecalendino.alfred-world-clock</string>
 	<key>category</key>
-	<string>Tools</string>
+	<string>Internet</string>
 	<key>connections</key>
 	<dict>
 		<key>FAC9CF11-4629-4710-85E3-1651334E92C1</key>
@@ -138,12 +138,12 @@ Valid timezones can be found here: https://github.com/fedecalendino/alfred-world
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
-				<false/>
+				<true/>
 				<key>trim</key>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Keyword to check time in multiple timezones.</string>
 			<key>label</key>
 			<string>Clock Keyword</string>
 			<key>type</key>
