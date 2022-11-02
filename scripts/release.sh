@@ -31,3 +31,6 @@ echo
 echo "Released $NAME v$VERSION"
 echo " * releases/$FILENAME"
 echo
+
+echo "Opening new release"
+open "./releases/$FILENAME"
