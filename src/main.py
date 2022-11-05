@@ -5,6 +5,8 @@ from datetime import datetime
 import pytz as tz
 from pyflow import Workflow
 
+import data
+
 
 DATE_FORMAT = os.getenv("DATE_FORMAT", "%d %B, %Y")
 TIME_FORMAT = os.getenv("TIME_FORMAT", "%H%:%M:%S")
@@ -41,11 +43,16 @@ def main(workflow):
             offset_hours = round(offset.days * 24 + offset.seconds / 60 / 60)
             icon = f"img/icons/{offset_hours}.png"
 
+        location = timezone.replace("/", ", ").replace("_", " ")
+
         workflow.new_item(
-            title=now.strftime(TIME_FORMAT),
-            subtitle="{date} [{timezone}]".format(
+            title="{time} ({date})".format(
+                time=now.strftime(TIME_FORMAT),
                 date=now.strftime(DATE_FORMAT),
-                timezone=timezone.replace("/", ", ").replace("_", " "),
+            ),
+            subtitle="{flag} {location}".format(
+                flag=data.flags.get(timezone, "🌐"),
+                location=location,
             ),
             arg=now.isoformat(),
             copytext=now.isoformat(),

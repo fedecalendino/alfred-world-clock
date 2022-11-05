@@ -1,6 +1,8 @@
 *pyc
 .DS_Store
 
+tmp.py
+
 prefs.plist
 
 bin/

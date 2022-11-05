@@ -151,7 +151,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>UTC</string>
+				<string>🌐 UTC</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -170,7 +170,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Abidjan</string>
+				<string>🇨🇮 Africa / Abidjan</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -189,7 +189,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Algiers</string>
+				<string>🇩🇿 Africa / Algiers</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -208,7 +208,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Bissau</string>
+				<string>🇬🇼 Africa / Bissau</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -227,7 +227,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Cairo</string>
+				<string>🇪🇬 Africa / Cairo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -246,7 +246,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Casablanca</string>
+				<string>🇲🇦 Africa / Casablanca</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -265,7 +265,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Ceuta</string>
+				<string>🇪🇸 Africa / Ceuta</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -284,7 +284,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / El Aaiun</string>
+				<string>🇪🇭 Africa / El Aaiun</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -303,7 +303,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Johannesburg</string>
+				<string>🇿🇦 Africa / Johannesburg</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -322,7 +322,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Juba</string>
+				<string>🇸🇸 Africa / Juba</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -341,7 +341,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Khartoum</string>
+				<string>🇸🇩 Africa / Khartoum</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -360,7 +360,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Lagos</string>
+				<string>🇳🇬 Africa / Lagos</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -379,7 +379,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Maputo</string>
+				<string>🇲🇿 Africa / Maputo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -398,7 +398,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Monrovia</string>
+				<string>🇱🇷 Africa / Monrovia</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -417,7 +417,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Nairobi</string>
+				<string>🇰🇪 Africa / Nairobi</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -436,7 +436,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Ndjamena</string>
+				<string>🇹🇩 Africa / Ndjamena</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -455,7 +455,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Sao Tome</string>
+				<string>🇸🇹 Africa / Sao Tome</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -474,7 +474,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Tripoli</string>
+				<string>🇱🇾 Africa / Tripoli</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -493,7 +493,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Tunis</string>
+				<string>🇹🇳 Africa / Tunis</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -512,7 +512,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Africa / Windhoek</string>
+				<string>🇳🇦 Africa / Windhoek</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -531,7 +531,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Adak</string>
+				<string>🇺🇸 America / Adak</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -550,7 +550,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Anchorage</string>
+				<string>🇺🇸 America / Anchorage</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -569,7 +569,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Araguaina</string>
+				<string>🇧🇷 America / Araguaina</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -588,7 +588,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / Buenos Aires</string>
+				<string>🇦🇷 America / Argentina / Buenos Aires</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -607,7 +607,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / Catamarca</string>
+				<string>🇦🇷 America / Argentina / Catamarca</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -626,7 +626,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / Cordoba</string>
+				<string>🇦🇷 America / Argentina / Cordoba</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -645,7 +645,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / Jujuy</string>
+				<string>🇦🇷 America / Argentina / Jujuy</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -664,7 +664,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / La Rioja</string>
+				<string>🇦🇷 America / Argentina / La Rioja</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -683,7 +683,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / Mendoza</string>
+				<string>🇦🇷 America / Argentina / Mendoza</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -702,7 +702,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / Rio Gallegos</string>
+				<string>🇦🇷 America / Argentina / Rio Gallegos</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -721,7 +721,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / Salta</string>
+				<string>🇦🇷 America / Argentina / Salta</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -740,7 +740,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / San Juan</string>
+				<string>🇦🇷 America / Argentina / San Juan</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -759,7 +759,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / San Luis</string>
+				<string>🇦🇷 America / Argentina / San Luis</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -778,7 +778,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / Tucuman</string>
+				<string>🇦🇷 America / Argentina / Tucuman</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -797,7 +797,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Argentina / Ushuaia</string>
+				<string>🇦🇷 America / Argentina / Ushuaia</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -816,7 +816,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Asuncion</string>
+				<string>🇵🇾 America / Asuncion</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -835,7 +835,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Bahia</string>
+				<string>🇧🇷 America / Bahia</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -854,7 +854,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Bahia Banderas</string>
+				<string>🇲🇽 America / Bahia Banderas</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -873,7 +873,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Barbados</string>
+				<string>🇧🇧 America / Barbados</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -892,7 +892,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Belem</string>
+				<string>🇧🇷 America / Belem</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -911,7 +911,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Belize</string>
+				<string>🇧🇿 America / Belize</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -930,7 +930,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Boa Vista</string>
+				<string>🇧🇷 America / Boa Vista</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -949,7 +949,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Bogota</string>
+				<string>🇨🇴 America / Bogota</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -968,7 +968,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Boise</string>
+				<string>🇺🇸 America / Boise</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -987,7 +987,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Cambridge Bay</string>
+				<string>🇨🇦 America / Cambridge Bay</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1006,7 +1006,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Campo Grande</string>
+				<string>🇧🇷 America / Campo Grande</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1025,7 +1025,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Cancun</string>
+				<string>🇲🇽 America / Cancun</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1044,7 +1044,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Caracas</string>
+				<string>🇻🇪 America / Caracas</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1063,7 +1063,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Cayenne</string>
+				<string>🇬🇫 America / Cayenne</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1082,7 +1082,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Chicago</string>
+				<string>🇺🇸 America / Chicago</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1101,7 +1101,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Chihuahua</string>
+				<string>🇲🇽 America / Chihuahua</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1120,7 +1120,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Costa Rica</string>
+				<string>🇨🇷 America / Costa Rica</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1139,7 +1139,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Cuiaba</string>
+				<string>🇧🇷 America / Cuiaba</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1158,7 +1158,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Danmarkshavn</string>
+				<string>🇬🇱 America / Danmarkshavn</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1177,7 +1177,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Dawson</string>
+				<string>🇨🇦 America / Dawson</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1196,7 +1196,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Dawson Creek</string>
+				<string>🇨🇦 America / Dawson Creek</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1215,7 +1215,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Denver</string>
+				<string>🇺🇸 America / Denver</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1234,7 +1234,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Detroit</string>
+				<string>🇺🇸 America / Detroit</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1253,7 +1253,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Edmonton</string>
+				<string>🇨🇦 America / Edmonton</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1272,7 +1272,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Eirunepe</string>
+				<string>🇧🇷 America / Eirunepe</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1291,7 +1291,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / El Salvador</string>
+				<string>🇸🇻 America / El Salvador</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1310,7 +1310,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Fort Nelson</string>
+				<string>🇨🇦 America / Fort Nelson</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1329,7 +1329,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Fortaleza</string>
+				<string>🇧🇷 America / Fortaleza</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1348,7 +1348,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Glace Bay</string>
+				<string>🇨🇦 America / Glace Bay</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1367,7 +1367,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Goose Bay</string>
+				<string>🇨🇦 America / Goose Bay</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1386,7 +1386,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Grand Turk</string>
+				<string>🇹🇨 America / Grand Turk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1405,7 +1405,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Guatemala</string>
+				<string>🇬🇹 America / Guatemala</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1424,7 +1424,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Guayaquil</string>
+				<string>🇪🇨 America / Guayaquil</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1443,7 +1443,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Guyana</string>
+				<string>🇬🇾 America / Guyana</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1462,7 +1462,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Halifax</string>
+				<string>🇨🇦 America / Halifax</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1481,7 +1481,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Havana</string>
+				<string>🇨🇺 America / Havana</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1500,7 +1500,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Hermosillo</string>
+				<string>🇲🇽 America / Hermosillo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1519,7 +1519,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Indiana / Indianapolis</string>
+				<string>🇺🇸 America / Indiana / Indianapolis</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1538,7 +1538,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Indiana / Knox</string>
+				<string>🇺🇸 America / Indiana / Knox</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1557,7 +1557,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Indiana / Marengo</string>
+				<string>🇺🇸 America / Indiana / Marengo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1576,7 +1576,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Indiana / Petersburg</string>
+				<string>🇺🇸 America / Indiana / Petersburg</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1595,7 +1595,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Indiana / Tell City</string>
+				<string>🇺🇸 America / Indiana / Tell City</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1614,7 +1614,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Indiana / Vevay</string>
+				<string>🇺🇸 America / Indiana / Vevay</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1633,7 +1633,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Indiana / Vincennes</string>
+				<string>🇺🇸 America / Indiana / Vincennes</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1652,7 +1652,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Indiana / Winamac</string>
+				<string>🇺🇸 America / Indiana / Winamac</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1671,7 +1671,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Inuvik</string>
+				<string>🇨🇦 America / Inuvik</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1690,7 +1690,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Iqaluit</string>
+				<string>🇨🇦 America / Iqaluit</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1709,7 +1709,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Jamaica</string>
+				<string>🇯🇲 America / Jamaica</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1728,7 +1728,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Juneau</string>
+				<string>🇺🇸 America / Juneau</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1747,7 +1747,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Kentucky / Louisville</string>
+				<string>🇺🇸 America / Kentucky / Louisville</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1766,7 +1766,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Kentucky / Monticello</string>
+				<string>🇺🇸 America / Kentucky / Monticello</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1785,7 +1785,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / La Paz</string>
+				<string>🇧🇴 America / La Paz</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1804,7 +1804,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Lima</string>
+				<string>🇵🇪 America / Lima</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1823,7 +1823,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Los Angeles</string>
+				<string>🇺🇸 America / Los Angeles</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1842,7 +1842,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Maceio</string>
+				<string>🇧🇷 America / Maceio</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1861,7 +1861,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Managua</string>
+				<string>🇳🇮 America / Managua</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1880,7 +1880,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Manaus</string>
+				<string>🇧🇷 America / Manaus</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1899,7 +1899,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Martinique</string>
+				<string>🇲🇶 America / Martinique</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1918,7 +1918,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Matamoros</string>
+				<string>🇲🇽 America / Matamoros</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1937,7 +1937,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Mazatlan</string>
+				<string>🇲🇽 America / Mazatlan</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1956,7 +1956,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Menominee</string>
+				<string>🇺🇸 America / Menominee</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1975,7 +1975,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Merida</string>
+				<string>🇲🇽 America / Merida</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -1994,7 +1994,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Metlakatla</string>
+				<string>🇺🇸 America / Metlakatla</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2013,7 +2013,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Mexico City</string>
+				<string>🇲🇽 America / Mexico City</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2032,7 +2032,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Miquelon</string>
+				<string>🇵🇲 America / Miquelon</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2051,7 +2051,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Moncton</string>
+				<string>🇨🇦 America / Moncton</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2070,7 +2070,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Monterrey</string>
+				<string>🇲🇽 America / Monterrey</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2089,7 +2089,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Montevideo</string>
+				<string>🇺🇾 America / Montevideo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2108,7 +2108,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / New York</string>
+				<string>🇺🇸 America / New York</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2127,7 +2127,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Nipigon</string>
+				<string>🌐 America / Nipigon</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2146,7 +2146,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Nome</string>
+				<string>🇺🇸 America / Nome</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2165,7 +2165,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Noronha</string>
+				<string>🇧🇷 America / Noronha</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2184,7 +2184,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / North Dakota / Beulah</string>
+				<string>🇺🇸 America / North Dakota / Beulah</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2203,7 +2203,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / North Dakota / Center</string>
+				<string>🇺🇸 America / North Dakota / Center</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2222,7 +2222,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / North Dakota / New Salem</string>
+				<string>🇺🇸 America / North Dakota / New Salem</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2241,7 +2241,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Nuuk</string>
+				<string>🇬🇱 America / Nuuk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2260,7 +2260,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Ojinaga</string>
+				<string>🇲🇽 America / Ojinaga</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2279,7 +2279,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Panama</string>
+				<string>🇵🇦 America / Panama</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2298,7 +2298,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Pangnirtung</string>
+				<string>🇨🇦 America / Pangnirtung</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2317,7 +2317,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Paramaribo</string>
+				<string>🇸🇷 America / Paramaribo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2336,7 +2336,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Phoenix</string>
+				<string>🇺🇸 America / Phoenix</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2355,7 +2355,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Port-au-Prince</string>
+				<string>🇭🇹 America / Port-au-Prince</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2374,7 +2374,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Porto Velho</string>
+				<string>🇧🇷 America / Porto Velho</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2393,7 +2393,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Puerto Rico</string>
+				<string>🇵🇷 America / Puerto Rico</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2412,7 +2412,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Punta Arenas</string>
+				<string>🇨🇱 America / Punta Arenas</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2431,7 +2431,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Rainy River</string>
+				<string>🌐 America / Rainy River</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2450,7 +2450,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Rankin Inlet</string>
+				<string>🇨🇦 America / Rankin Inlet</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2469,7 +2469,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Recife</string>
+				<string>🇧🇷 America / Recife</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2488,7 +2488,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Regina</string>
+				<string>🇨🇦 America / Regina</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2507,7 +2507,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Resolute</string>
+				<string>🇨🇦 America / Resolute</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2526,7 +2526,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Rio Branco</string>
+				<string>🇧🇷 America / Rio Branco</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2545,7 +2545,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Santarem</string>
+				<string>🇧🇷 America / Santarem</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2564,7 +2564,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Santiago</string>
+				<string>🇨🇱 America / Santiago</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2583,7 +2583,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Santo Domingo</string>
+				<string>🇩🇴 America / Santo Domingo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2602,7 +2602,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Sao Paulo</string>
+				<string>🇧🇷 America / Sao Paulo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2621,7 +2621,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Scoresbysund</string>
+				<string>🇬🇱 America / Scoresbysund</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2640,7 +2640,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Sitka</string>
+				<string>🇺🇸 America / Sitka</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2659,7 +2659,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / St Johns</string>
+				<string>🇨🇦 America / St Johns</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2678,7 +2678,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Swift Current</string>
+				<string>🇨🇦 America / Swift Current</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2697,7 +2697,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Tegucigalpa</string>
+				<string>🇭🇳 America / Tegucigalpa</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2716,7 +2716,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Thule</string>
+				<string>🇬🇱 America / Thule</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2735,7 +2735,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Thunder Bay</string>
+				<string>🌐 America / Thunder Bay</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2754,7 +2754,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Tijuana</string>
+				<string>🇲🇽 America / Tijuana</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2773,7 +2773,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Toronto</string>
+				<string>🇨🇦 America / Toronto</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2792,7 +2792,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Vancouver</string>
+				<string>🇨🇦 America / Vancouver</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2811,7 +2811,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Whitehorse</string>
+				<string>🇨🇦 America / Whitehorse</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2830,7 +2830,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Winnipeg</string>
+				<string>🇨🇦 America / Winnipeg</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2849,7 +2849,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Yakutat</string>
+				<string>🇺🇸 America / Yakutat</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2868,7 +2868,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>America / Yellowknife</string>
+				<string>🇨🇦 America / Yellowknife</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2887,7 +2887,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Antarctica / Casey</string>
+				<string>🇦🇶 Antarctica / Casey</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2906,7 +2906,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Antarctica / Davis</string>
+				<string>🇦🇶 Antarctica / Davis</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2925,7 +2925,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Antarctica / Macquarie</string>
+				<string>🇦🇺 Antarctica / Macquarie</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2944,7 +2944,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Antarctica / Mawson</string>
+				<string>🇦🇶 Antarctica / Mawson</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2963,7 +2963,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Antarctica / Palmer</string>
+				<string>🇦🇶 Antarctica / Palmer</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -2982,7 +2982,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Antarctica / Rothera</string>
+				<string>🇦🇶 Antarctica / Rothera</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3001,7 +3001,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Antarctica / Troll</string>
+				<string>🇦🇶 Antarctica / Troll</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3020,7 +3020,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Almaty</string>
+				<string>🇰🇿 Asia / Almaty</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3039,7 +3039,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Amman</string>
+				<string>🇯🇴 Asia / Amman</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3058,7 +3058,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Anadyr</string>
+				<string>🇷🇺 Asia / Anadyr</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3077,7 +3077,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Aqtau</string>
+				<string>🇰🇿 Asia / Aqtau</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3096,7 +3096,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Aqtobe</string>
+				<string>🇰🇿 Asia / Aqtobe</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3115,7 +3115,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Ashgabat</string>
+				<string>🇹🇲 Asia / Ashgabat</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3134,7 +3134,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Atyrau</string>
+				<string>🇰🇿 Asia / Atyrau</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3153,7 +3153,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Baghdad</string>
+				<string>🇮🇶 Asia / Baghdad</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3172,7 +3172,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Baku</string>
+				<string>🇦🇿 Asia / Baku</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3191,7 +3191,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Bangkok</string>
+				<string>🇹🇭 Asia / Bangkok</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3210,7 +3210,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Barnaul</string>
+				<string>🇷🇺 Asia / Barnaul</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3229,7 +3229,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Beirut</string>
+				<string>🇱🇧 Asia / Beirut</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3248,7 +3248,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Bishkek</string>
+				<string>🇰🇬 Asia / Bishkek</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3267,7 +3267,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Chita</string>
+				<string>🇷🇺 Asia / Chita</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3286,7 +3286,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Choibalsan</string>
+				<string>🇲🇳 Asia / Choibalsan</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3305,7 +3305,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Colombo</string>
+				<string>🇱🇰 Asia / Colombo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3324,7 +3324,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Damascus</string>
+				<string>🇸🇾 Asia / Damascus</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3343,7 +3343,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Dhaka</string>
+				<string>🇧🇩 Asia / Dhaka</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3362,7 +3362,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Dili</string>
+				<string>🇹🇱 Asia / Dili</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3381,7 +3381,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Dubai</string>
+				<string>🇦🇪 Asia / Dubai</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3400,7 +3400,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Dushanbe</string>
+				<string>🇹🇯 Asia / Dushanbe</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3419,7 +3419,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Famagusta</string>
+				<string>🇨🇾 Asia / Famagusta</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3438,7 +3438,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Gaza</string>
+				<string>🇵🇸 Asia / Gaza</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3457,7 +3457,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Hebron</string>
+				<string>🇵🇸 Asia / Hebron</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3476,7 +3476,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Ho Chi Minh</string>
+				<string>🇻🇳 Asia / Ho Chi Minh</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3495,7 +3495,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Hong Kong</string>
+				<string>🇭🇰 Asia / Hong Kong</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3514,7 +3514,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Hovd</string>
+				<string>🇲🇳 Asia / Hovd</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3533,7 +3533,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Irkutsk</string>
+				<string>🇷🇺 Asia / Irkutsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3552,7 +3552,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Jakarta</string>
+				<string>🇮🇩 Asia / Jakarta</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3571,7 +3571,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Jayapura</string>
+				<string>🇮🇩 Asia / Jayapura</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3590,7 +3590,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Jerusalem</string>
+				<string>🇮🇱 Asia / Jerusalem</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3609,7 +3609,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Kabul</string>
+				<string>🇦🇫 Asia / Kabul</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3628,7 +3628,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Kamchatka</string>
+				<string>🇷🇺 Asia / Kamchatka</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3647,7 +3647,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Karachi</string>
+				<string>🇵🇰 Asia / Karachi</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3666,7 +3666,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Kathmandu</string>
+				<string>🇳🇵 Asia / Kathmandu</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3685,7 +3685,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Khandyga</string>
+				<string>🇷🇺 Asia / Khandyga</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3704,7 +3704,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Kolkata</string>
+				<string>🇮🇳 Asia / Kolkata</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3723,7 +3723,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Krasnoyarsk</string>
+				<string>🇷🇺 Asia / Krasnoyarsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3742,7 +3742,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Kuching</string>
+				<string>🇲🇾 Asia / Kuching</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3761,7 +3761,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Macau</string>
+				<string>🇲🇴 Asia / Macau</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3780,7 +3780,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Magadan</string>
+				<string>🇷🇺 Asia / Magadan</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3799,7 +3799,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Makassar</string>
+				<string>🇮🇩 Asia / Makassar</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3818,7 +3818,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Manila</string>
+				<string>🇵🇭 Asia / Manila</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3837,7 +3837,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Nicosia</string>
+				<string>🇨🇾 Asia / Nicosia</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3856,7 +3856,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Novokuznetsk</string>
+				<string>🇷🇺 Asia / Novokuznetsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3875,7 +3875,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Novosibirsk</string>
+				<string>🇷🇺 Asia / Novosibirsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3894,7 +3894,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Omsk</string>
+				<string>🇷🇺 Asia / Omsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3913,7 +3913,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Oral</string>
+				<string>🇰🇿 Asia / Oral</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3932,7 +3932,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Pontianak</string>
+				<string>🇮🇩 Asia / Pontianak</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3951,7 +3951,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Pyongyang</string>
+				<string>🇰🇵 Asia / Pyongyang</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3970,7 +3970,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Qatar</string>
+				<string>🇶🇦 Asia / Qatar</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -3989,7 +3989,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Qostanay</string>
+				<string>🇰🇿 Asia / Qostanay</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4008,7 +4008,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Qyzylorda</string>
+				<string>🇰🇿 Asia / Qyzylorda</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4027,7 +4027,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Riyadh</string>
+				<string>🇸🇦 Asia / Riyadh</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4046,7 +4046,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Sakhalin</string>
+				<string>🇷🇺 Asia / Sakhalin</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4065,7 +4065,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Samarkand</string>
+				<string>🇺🇿 Asia / Samarkand</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4084,7 +4084,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Seoul</string>
+				<string>🇰🇷 Asia / Seoul</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4103,7 +4103,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Shanghai</string>
+				<string>🇨🇳 Asia / Shanghai</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4122,7 +4122,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Singapore</string>
+				<string>🇸🇬 Asia / Singapore</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4141,7 +4141,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Srednekolymsk</string>
+				<string>🇷🇺 Asia / Srednekolymsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4160,7 +4160,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Taipei</string>
+				<string>🇹🇼 Asia / Taipei</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4179,7 +4179,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Tashkent</string>
+				<string>🇺🇿 Asia / Tashkent</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4198,7 +4198,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Tbilisi</string>
+				<string>🇬🇪 Asia / Tbilisi</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4217,7 +4217,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Tehran</string>
+				<string>🇮🇷 Asia / Tehran</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4236,7 +4236,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Thimphu</string>
+				<string>🇧🇹 Asia / Thimphu</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4255,7 +4255,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Tokyo</string>
+				<string>🇯🇵 Asia / Tokyo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4274,7 +4274,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Tomsk</string>
+				<string>🇷🇺 Asia / Tomsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4293,7 +4293,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Ulaanbaatar</string>
+				<string>🇲🇳 Asia / Ulaanbaatar</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4312,7 +4312,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Urumqi</string>
+				<string>🇨🇳 Asia / Urumqi</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4331,7 +4331,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Ust-Nera</string>
+				<string>🇷🇺 Asia / Ust-Nera</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4350,7 +4350,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Vladivostok</string>
+				<string>🇷🇺 Asia / Vladivostok</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4369,7 +4369,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Yakutsk</string>
+				<string>🇷🇺 Asia / Yakutsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4388,7 +4388,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Yangon</string>
+				<string>🇲🇲 Asia / Yangon</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4407,7 +4407,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Yekaterinburg</string>
+				<string>🇷🇺 Asia / Yekaterinburg</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4426,7 +4426,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Asia / Yerevan</string>
+				<string>🇦🇲 Asia / Yerevan</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4445,7 +4445,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Atlantic / Azores</string>
+				<string>🇵🇹 Atlantic / Azores</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4464,7 +4464,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Atlantic / Bermuda</string>
+				<string>🇧🇲 Atlantic / Bermuda</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4483,7 +4483,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Atlantic / Canary</string>
+				<string>🇪🇸 Atlantic / Canary</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4502,7 +4502,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Atlantic / Cape Verde</string>
+				<string>🇨🇻 Atlantic / Cape Verde</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4521,7 +4521,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Atlantic / Faroe</string>
+				<string>🇫🇴 Atlantic / Faroe</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4540,7 +4540,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Atlantic / Madeira</string>
+				<string>🇵🇹 Atlantic / Madeira</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4559,7 +4559,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Atlantic / South Georgia</string>
+				<string>🇬🇸 Atlantic / South Georgia</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4578,7 +4578,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Atlantic / Stanley</string>
+				<string>🇫🇰 Atlantic / Stanley</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4597,7 +4597,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Adelaide</string>
+				<string>🇦🇺 Australia / Adelaide</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4616,7 +4616,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Brisbane</string>
+				<string>🇦🇺 Australia / Brisbane</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4635,7 +4635,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Broken Hill</string>
+				<string>🇦🇺 Australia / Broken Hill</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4654,7 +4654,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Darwin</string>
+				<string>🇦🇺 Australia / Darwin</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4673,7 +4673,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Eucla</string>
+				<string>🇦🇺 Australia / Eucla</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4692,7 +4692,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Hobart</string>
+				<string>🇦🇺 Australia / Hobart</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4711,7 +4711,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Lindeman</string>
+				<string>🇦🇺 Australia / Lindeman</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4730,7 +4730,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Lord Howe</string>
+				<string>🇦🇺 Australia / Lord Howe</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4749,7 +4749,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Melbourne</string>
+				<string>🇦🇺 Australia / Melbourne</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4768,7 +4768,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Perth</string>
+				<string>🇦🇺 Australia / Perth</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4787,7 +4787,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Australia / Sydney</string>
+				<string>🇦🇺 Australia / Sydney</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4806,7 +4806,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Andorra</string>
+				<string>🇦🇩 Europe / Andorra</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4825,7 +4825,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Astrakhan</string>
+				<string>🇷🇺 Europe / Astrakhan</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4844,7 +4844,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Athens</string>
+				<string>🇬🇷 Europe / Athens</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4863,7 +4863,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Belgrade</string>
+				<string>🇷🇸 Europe / Belgrade</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4882,7 +4882,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Berlin</string>
+				<string>🇩🇪 Europe / Berlin</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4901,7 +4901,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Brussels</string>
+				<string>🇧🇪 Europe / Brussels</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4920,7 +4920,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Bucharest</string>
+				<string>🇷🇴 Europe / Bucharest</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4939,7 +4939,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Budapest</string>
+				<string>🇭🇺 Europe / Budapest</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4958,7 +4958,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Chisinau</string>
+				<string>🇲🇩 Europe / Chisinau</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4977,7 +4977,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Dublin</string>
+				<string>🇮🇪 Europe / Dublin</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -4996,7 +4996,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Gibraltar</string>
+				<string>🇬🇮 Europe / Gibraltar</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5015,7 +5015,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Helsinki</string>
+				<string>🇫🇮 Europe / Helsinki</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5034,7 +5034,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Istanbul</string>
+				<string>🇹🇷 Europe / Istanbul</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5053,7 +5053,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Kaliningrad</string>
+				<string>🇷🇺 Europe / Kaliningrad</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5072,7 +5072,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Kirov</string>
+				<string>🇷🇺 Europe / Kirov</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5091,7 +5091,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Kyiv</string>
+				<string>🇺🇦 Europe / Kyiv</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5110,7 +5110,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Lisbon</string>
+				<string>🇵🇹 Europe / Lisbon</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5129,7 +5129,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / London</string>
+				<string>🇬🇧 Europe / London</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5148,7 +5148,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Madrid</string>
+				<string>🇪🇸 Europe / Madrid</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5167,7 +5167,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Malta</string>
+				<string>🇲🇹 Europe / Malta</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5186,7 +5186,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Minsk</string>
+				<string>🇧🇾 Europe / Minsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5205,7 +5205,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Moscow</string>
+				<string>🇷🇺 Europe / Moscow</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5224,7 +5224,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Paris</string>
+				<string>🇫🇷 Europe / Paris</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5243,7 +5243,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Prague</string>
+				<string>🇨🇿 Europe / Prague</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5262,7 +5262,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Riga</string>
+				<string>🇱🇻 Europe / Riga</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5281,7 +5281,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Rome</string>
+				<string>🇮🇹 Europe / Rome</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5300,7 +5300,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Samara</string>
+				<string>🇷🇺 Europe / Samara</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5319,7 +5319,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Saratov</string>
+				<string>🇷🇺 Europe / Saratov</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5338,7 +5338,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Simferopol</string>
+				<string>🇺🇦 Europe / Simferopol</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5357,7 +5357,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Sofia</string>
+				<string>🇧🇬 Europe / Sofia</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5376,7 +5376,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Tallinn</string>
+				<string>🇪🇪 Europe / Tallinn</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5395,7 +5395,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Tirane</string>
+				<string>🇦🇱 Europe / Tirane</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5414,7 +5414,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Ulyanovsk</string>
+				<string>🇷🇺 Europe / Ulyanovsk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5433,7 +5433,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Vienna</string>
+				<string>🇦🇹 Europe / Vienna</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5452,7 +5452,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Vilnius</string>
+				<string>🇱🇹 Europe / Vilnius</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5471,7 +5471,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Volgograd</string>
+				<string>🇷🇺 Europe / Volgograd</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5490,7 +5490,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Warsaw</string>
+				<string>🇵🇱 Europe / Warsaw</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5509,7 +5509,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Europe / Zurich</string>
+				<string>🇨🇭 Europe / Zurich</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5528,7 +5528,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Indian / Chagos</string>
+				<string>🇮🇴 Indian / Chagos</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5547,7 +5547,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Indian / Maldives</string>
+				<string>🇲🇻 Indian / Maldives</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5566,7 +5566,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Indian / Mauritius</string>
+				<string>🇲🇺 Indian / Mauritius</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5585,7 +5585,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Apia</string>
+				<string>🇼🇸 Pacific / Apia</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5604,7 +5604,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Auckland</string>
+				<string>🇳🇿 Pacific / Auckland</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5623,7 +5623,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Bougainville</string>
+				<string>🇵🇬 Pacific / Bougainville</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5642,7 +5642,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Chatham</string>
+				<string>🇳🇿 Pacific / Chatham</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5661,7 +5661,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Easter</string>
+				<string>🇨🇱 Pacific / Easter</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5680,7 +5680,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Efate</string>
+				<string>🇻🇺 Pacific / Efate</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5699,7 +5699,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Fakaofo</string>
+				<string>🇹🇰 Pacific / Fakaofo</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5718,7 +5718,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Fiji</string>
+				<string>🇫🇯 Pacific / Fiji</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5737,7 +5737,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Galapagos</string>
+				<string>🇪🇨 Pacific / Galapagos</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5756,7 +5756,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Gambier</string>
+				<string>🇵🇫 Pacific / Gambier</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5775,7 +5775,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Guadalcanal</string>
+				<string>🇸🇧 Pacific / Guadalcanal</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5794,7 +5794,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Guam</string>
+				<string>🇬🇺 Pacific / Guam</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5813,7 +5813,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Honolulu</string>
+				<string>🇺🇸 Pacific / Honolulu</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5832,7 +5832,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Kanton</string>
+				<string>🇰🇮 Pacific / Kanton</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5851,7 +5851,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Kiritimati</string>
+				<string>🇰🇮 Pacific / Kiritimati</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5870,7 +5870,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Kosrae</string>
+				<string>🇫🇲 Pacific / Kosrae</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5889,7 +5889,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Kwajalein</string>
+				<string>🇲🇭 Pacific / Kwajalein</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5908,7 +5908,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Marquesas</string>
+				<string>🇵🇫 Pacific / Marquesas</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5927,7 +5927,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Nauru</string>
+				<string>🇳🇷 Pacific / Nauru</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5946,7 +5946,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Niue</string>
+				<string>🇳🇺 Pacific / Niue</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5965,7 +5965,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Norfolk</string>
+				<string>🇳🇫 Pacific / Norfolk</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -5984,7 +5984,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Noumea</string>
+				<string>🇳🇨 Pacific / Noumea</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -6003,7 +6003,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Pago Pago</string>
+				<string>🇦🇸 Pacific / Pago Pago</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -6022,7 +6022,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Palau</string>
+				<string>🇵🇼 Pacific / Palau</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -6041,7 +6041,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Pitcairn</string>
+				<string>🇵🇳 Pacific / Pitcairn</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -6060,7 +6060,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Port Moresby</string>
+				<string>🇵🇬 Pacific / Port Moresby</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -6079,7 +6079,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Rarotonga</string>
+				<string>🇨🇰 Pacific / Rarotonga</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -6098,7 +6098,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Tahiti</string>
+				<string>🇵🇫 Pacific / Tahiti</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -6117,7 +6117,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Tarawa</string>
+				<string>🇰🇮 Pacific / Tarawa</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -6136,7 +6136,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Pacific / Tongatapu</string>
+				<string>🇹🇴 Pacific / Tongatapu</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -6149,7 +6149,7 @@
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.6.0</string>
+	<string>1.7.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/fedecalendino/alfred-world-clock</string>
 </dict>
