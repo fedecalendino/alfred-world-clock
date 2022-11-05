@@ -7,10 +7,6 @@
 
 ![vars example](./img/screenshots/config.png)
 
-TIMEZONES:
-
-Valid timezones can be found here: https://github.com/fedecalendino/alfred-world-clock/blob/main/timezones
-
 
 #### Usage:
 

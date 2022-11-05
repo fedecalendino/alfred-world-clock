@@ -9,35 +9,37 @@ from pyflow import Workflow
 DATE_FORMAT = os.getenv("DATE_FORMAT", "%d %B, %Y")
 TIME_FORMAT = os.getenv("TIME_FORMAT", "%H%:%M:%S")
 
-TIMEZONES = list(
-    filter(
-        lambda timezone: len(timezone),
-        os.getenv("TIMEZONES", "").split("\n"),
-    )
-)
-
 
 def main(workflow):
-    now = datetime.utcnow()
-
-    workflow.new_item(
-        title=now.strftime(TIME_FORMAT),
-        subtitle=f"{now.strftime(DATE_FORMAT)} [UTC]",
-        arg=now.isoformat(),
-        copytext=now.isoformat(),
-        valid=True,
-    ).set_icon_file(
-        path="img/icons/utc.png",
+    timezones = map(
+        lambda item: item[0][3:].replace("__", "/"),
+        filter(
+            lambda item: item[0].startswith("TZ_") and item[1] == "1",
+            workflow.env.items(),
+        ),
     )
 
-    for timezone in TIMEZONES:
-        if not timezone:
-            continue
+    timezones = {
+        timezone: datetime.utcnow()
+        .replace(tzinfo=tz.utc)
+        .astimezone(tz=tz.timezone(timezone))
+        for timezone in timezones
+    }
 
-        now = datetime.utcnow().replace(tzinfo=tz.utc).astimezone(tz.timezone(timezone))
+    timezones = list(
+        sorted(
+            timezones.items(),
+            key=lambda item: item[1].isoformat(),
+        )
+    )
 
-        offset = now.utcoffset()
-        offset_hours = round(offset.days * 24 + offset.seconds / 60 / 60)
+    for timezone, now in timezones:
+        if timezone == "UTC":
+            icon = "img/icons/utc.png"
+        else:
+            offset = now.utcoffset()
+            offset_hours = round(offset.days * 24 + offset.seconds / 60 / 60)
+            icon = f"img/icons/{offset_hours}.png"
 
         workflow.new_item(
             title=now.strftime(TIME_FORMAT),
@@ -48,8 +50,9 @@ def main(workflow):
             arg=now.isoformat(),
             copytext=now.isoformat(),
             valid=True,
+            uid=timezone,
         ).set_icon_file(
-            path=f"img/icons/{offset_hours}.png",
+            path=icon,
         )
 
 
