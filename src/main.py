@@ -13,10 +13,23 @@ TIME_FORMAT = os.getenv("TIME_FORMAT", "%H%:%M:%S")
 
 
 def main(workflow):
+    home = workflow.env["HOME"]
+
+    home_tz = home[3:].replace("__", "/")
+    home_now = (
+        datetime.utcnow()
+        .replace(tzinfo=tz.utc)
+        .astimezone(
+            tz=tz.timezone(home_tz),
+        )
+    )
+
     timezones = map(
         lambda item: item[0][3:].replace("__", "/"),
         filter(
-            lambda item: item[0].startswith("TZ_") and item[1] == "1",
+            lambda item: item[0].startswith("TZ_")
+            and item[1] == "1"
+            and item[0] != home,
             workflow.env.items(),
         ),
     )
@@ -28,7 +41,7 @@ def main(workflow):
         for timezone in timezones
     }
 
-    timezones = list(
+    timezones = [(home_tz, home_now)] + list(
         sorted(
             timezones.items(),
             key=lambda item: item[1].isoformat(),
@@ -36,7 +49,9 @@ def main(workflow):
     )
 
     for timezone, now in timezones:
-        if timezone == "UTC":
+        if timezone == home_tz:
+            icon = "img/icons/home.png"
+        elif timezone == "UTC":
             icon = "img/icons/utc.png"
         else:
             offset = now.utcoffset()

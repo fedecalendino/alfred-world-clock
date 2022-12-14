@@ -147,6 +147,1288 @@
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string>TZ_UTC</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>🌐 UTC</string>
+						<string>TZ_UTC</string>
+					</array>
+					<array>
+						<string>🇨🇮 Africa / Abidjan</string>
+						<string>TZ_Africa__Abidjan</string>
+					</array>
+					<array>
+						<string>🇩🇿 Africa / Algiers</string>
+						<string>TZ_Africa__Algiers</string>
+					</array>
+					<array>
+						<string>🇬🇼 Africa / Bissau</string>
+						<string>TZ_Africa__Bissau</string>
+					</array>
+					<array>
+						<string>🇪🇬 Africa / Cairo</string>
+						<string>TZ_Africa__Cairo</string>
+					</array>
+					<array>
+						<string>🇲🇦 Africa / Casablanca</string>
+						<string>TZ_Africa__Casablanca</string>
+					</array>
+					<array>
+						<string>🇪🇸 Africa / Ceuta</string>
+						<string>TZ_Africa__Ceuta</string>
+					</array>
+					<array>
+						<string>🇪🇭 Africa / El Aaiun</string>
+						<string>TZ_Africa__El_Aaiun</string>
+					</array>
+					<array>
+						<string>🇿🇦 Africa / Johannesburg</string>
+						<string>TZ_Africa__Johannesburg</string>
+					</array>
+					<array>
+						<string>🇸🇸 Africa / Juba</string>
+						<string>TZ_Africa__Juba</string>
+					</array>
+					<array>
+						<string>🇸🇩 Africa / Khartoum</string>
+						<string>TZ_Africa__Khartoum</string>
+					</array>
+					<array>
+						<string>🇳🇬 Africa / Lagos</string>
+						<string>TZ_Africa__Lagos</string>
+					</array>
+					<array>
+						<string>🇲🇿 Africa / Maputo</string>
+						<string>TZ_Africa__Maputo</string>
+					</array>
+					<array>
+						<string>🇱🇷 Africa / Monrovia</string>
+						<string>TZ_Africa__Monrovia</string>
+					</array>
+					<array>
+						<string>🇰🇪 Africa / Nairobi</string>
+						<string>TZ_Africa__Nairobi</string>
+					</array>
+					<array>
+						<string>🇹🇩 Africa / Ndjamena</string>
+						<string>TZ_Africa__Ndjamena</string>
+					</array>
+					<array>
+						<string>🇸🇹 Africa / Sao Tome</string>
+						<string>TZ_Africa__Sao_Tome</string>
+					</array>
+					<array>
+						<string>🇱🇾 Africa / Tripoli</string>
+						<string>TZ_Africa__Tripoli</string>
+					</array>
+					<array>
+						<string>🇹🇳 Africa / Tunis</string>
+						<string>TZ_Africa__Tunis</string>
+					</array>
+					<array>
+						<string>🇳🇦 Africa / Windhoek</string>
+						<string>TZ_Africa__Windhoek</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Adak</string>
+						<string>TZ_America__Adak</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Anchorage</string>
+						<string>TZ_America__Anchorage</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Araguaina</string>
+						<string>TZ_America__Araguaina</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / Buenos Aires</string>
+						<string>TZ_America__Argentina__Buenos_Aires</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / Catamarca</string>
+						<string>TZ_America__Argentina__Catamarca</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / Cordoba</string>
+						<string>TZ_America__Argentina__Cordoba</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / Jujuy</string>
+						<string>TZ_America__Argentina__Jujuy</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / La Rioja</string>
+						<string>TZ_America__Argentina__La_Rioja</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / Mendoza</string>
+						<string>TZ_America__Argentina__Mendoza</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / Rio Gallegos</string>
+						<string>TZ_America__Argentina__Rio_Gallegos</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / Salta</string>
+						<string>TZ_America__Argentina__Salta</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / San Juan</string>
+						<string>TZ_America__Argentina__San_Juan</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / San Luis</string>
+						<string>TZ_America__Argentina__San_Luis</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / Tucuman</string>
+						<string>TZ_America__Argentina__Tucuman</string>
+					</array>
+					<array>
+						<string>🇦🇷 America / Argentina / Ushuaia</string>
+						<string>TZ_America__Argentina__Ushuaia</string>
+					</array>
+					<array>
+						<string>🇵🇾 America / Asuncion</string>
+						<string>TZ_America__Asuncion</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Bahia</string>
+						<string>TZ_America__Bahia</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Bahia Banderas</string>
+						<string>TZ_America__Bahia_Banderas</string>
+					</array>
+					<array>
+						<string>🇧🇧 America / Barbados</string>
+						<string>TZ_America__Barbados</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Belem</string>
+						<string>TZ_America__Belem</string>
+					</array>
+					<array>
+						<string>🇧🇿 America / Belize</string>
+						<string>TZ_America__Belize</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Boa Vista</string>
+						<string>TZ_America__Boa_Vista</string>
+					</array>
+					<array>
+						<string>🇨🇴 America / Bogota</string>
+						<string>TZ_America__Bogota</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Boise</string>
+						<string>TZ_America__Boise</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Cambridge Bay</string>
+						<string>TZ_America__Cambridge_Bay</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Campo Grande</string>
+						<string>TZ_America__Campo_Grande</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Cancun</string>
+						<string>TZ_America__Cancun</string>
+					</array>
+					<array>
+						<string>🇻🇪 America / Caracas</string>
+						<string>TZ_America__Caracas</string>
+					</array>
+					<array>
+						<string>🇬🇫 America / Cayenne</string>
+						<string>TZ_America__Cayenne</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Chicago</string>
+						<string>TZ_America__Chicago</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Chihuahua</string>
+						<string>TZ_America__Chihuahua</string>
+					</array>
+					<array>
+						<string>🇨🇷 America / Costa Rica</string>
+						<string>TZ_America__Costa_Rica</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Cuiaba</string>
+						<string>TZ_America__Cuiaba</string>
+					</array>
+					<array>
+						<string>🇬🇱 America / Danmarkshavn</string>
+						<string>TZ_America__Danmarkshavn</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Dawson</string>
+						<string>TZ_America__Dawson</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Dawson Creek</string>
+						<string>TZ_America__Dawson_Creek</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Denver</string>
+						<string>TZ_America__Denver</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Detroit</string>
+						<string>TZ_America__Detroit</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Edmonton</string>
+						<string>TZ_America__Edmonton</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Eirunepe</string>
+						<string>TZ_America__Eirunepe</string>
+					</array>
+					<array>
+						<string>🇸🇻 America / El Salvador</string>
+						<string>TZ_America__El_Salvador</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Fort Nelson</string>
+						<string>TZ_America__Fort_Nelson</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Fortaleza</string>
+						<string>TZ_America__Fortaleza</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Glace Bay</string>
+						<string>TZ_America__Glace_Bay</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Goose Bay</string>
+						<string>TZ_America__Goose_Bay</string>
+					</array>
+					<array>
+						<string>🇹🇨 America / Grand Turk</string>
+						<string>TZ_America__Grand_Turk</string>
+					</array>
+					<array>
+						<string>🇬🇹 America / Guatemala</string>
+						<string>TZ_America__Guatemala</string>
+					</array>
+					<array>
+						<string>🇪🇨 America / Guayaquil</string>
+						<string>TZ_America__Guayaquil</string>
+					</array>
+					<array>
+						<string>🇬🇾 America / Guyana</string>
+						<string>TZ_America__Guyana</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Halifax</string>
+						<string>TZ_America__Halifax</string>
+					</array>
+					<array>
+						<string>🇨🇺 America / Havana</string>
+						<string>TZ_America__Havana</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Hermosillo</string>
+						<string>TZ_America__Hermosillo</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Indiana / Indianapolis</string>
+						<string>TZ_America__Indiana__Indianapolis</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Indiana / Knox</string>
+						<string>TZ_America__Indiana__Knox</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Indiana / Marengo</string>
+						<string>TZ_America__Indiana__Marengo</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Indiana / Petersburg</string>
+						<string>TZ_America__Indiana__Petersburg</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Indiana / Tell City</string>
+						<string>TZ_America__Indiana__Tell_City</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Indiana / Vevay</string>
+						<string>TZ_America__Indiana__Vevay</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Indiana / Vincennes</string>
+						<string>TZ_America__Indiana__Vincennes</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Indiana / Winamac</string>
+						<string>TZ_America__Indiana__Winamac</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Inuvik</string>
+						<string>TZ_America__Inuvik</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Iqaluit</string>
+						<string>TZ_America__Iqaluit</string>
+					</array>
+					<array>
+						<string>🇯🇲 America / Jamaica</string>
+						<string>TZ_America__Jamaica</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Juneau</string>
+						<string>TZ_America__Juneau</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Kentucky / Louisville</string>
+						<string>TZ_America__Kentucky__Louisville</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Kentucky / Monticello</string>
+						<string>TZ_America__Kentucky__Monticello</string>
+					</array>
+					<array>
+						<string>🇧🇴 America / La Paz</string>
+						<string>TZ_America__La_Paz</string>
+					</array>
+					<array>
+						<string>🇵🇪 America / Lima</string>
+						<string>TZ_America__Lima</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Los Angeles</string>
+						<string>TZ_America__Los_Angeles</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Maceio</string>
+						<string>TZ_America__Maceio</string>
+					</array>
+					<array>
+						<string>🇳🇮 America / Managua</string>
+						<string>TZ_America__Managua</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Manaus</string>
+						<string>TZ_America__Manaus</string>
+					</array>
+					<array>
+						<string>🇲🇶 America / Martinique</string>
+						<string>TZ_America__Martinique</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Matamoros</string>
+						<string>TZ_America__Matamoros</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Mazatlan</string>
+						<string>TZ_America__Mazatlan</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Menominee</string>
+						<string>TZ_America__Menominee</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Merida</string>
+						<string>TZ_America__Merida</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Metlakatla</string>
+						<string>TZ_America__Metlakatla</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Mexico City</string>
+						<string>TZ_America__Mexico_City</string>
+					</array>
+					<array>
+						<string>🇵🇲 America / Miquelon</string>
+						<string>TZ_America__Miquelon</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Moncton</string>
+						<string>TZ_America__Moncton</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Monterrey</string>
+						<string>TZ_America__Monterrey</string>
+					</array>
+					<array>
+						<string>🇺🇾 America / Montevideo</string>
+						<string>TZ_America__Montevideo</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / New York</string>
+						<string>TZ_America__New_York</string>
+					</array>
+					<array>
+						<string>🌐 America / Nipigon</string>
+						<string>TZ_America__Nipigon</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Nome</string>
+						<string>TZ_America__Nome</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Noronha</string>
+						<string>TZ_America__Noronha</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / North Dakota / Beulah</string>
+						<string>TZ_America__North_Dakota__Beulah</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / North Dakota / Center</string>
+						<string>TZ_America__North_Dakota__Center</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / North Dakota / New Salem</string>
+						<string>TZ_America__North_Dakota__New_Salem</string>
+					</array>
+					<array>
+						<string>🇬🇱 America / Nuuk</string>
+						<string>TZ_America__Nuuk</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Ojinaga</string>
+						<string>TZ_America__Ojinaga</string>
+					</array>
+					<array>
+						<string>🇵🇦 America / Panama</string>
+						<string>TZ_America__Panama</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Pangnirtung</string>
+						<string>TZ_America__Pangnirtung</string>
+					</array>
+					<array>
+						<string>🇸🇷 America / Paramaribo</string>
+						<string>TZ_America__Paramaribo</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Phoenix</string>
+						<string>TZ_America__Phoenix</string>
+					</array>
+					<array>
+						<string>🇭🇹 America / Port-au-Prince</string>
+						<string>TZ_America__Port-au-Prince</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Porto Velho</string>
+						<string>TZ_America__Porto_Velho</string>
+					</array>
+					<array>
+						<string>🇵🇷 America / Puerto Rico</string>
+						<string>TZ_America__Puerto_Rico</string>
+					</array>
+					<array>
+						<string>🇨🇱 America / Punta Arenas</string>
+						<string>TZ_America__Punta_Arenas</string>
+					</array>
+					<array>
+						<string>🌐 America / Rainy River</string>
+						<string>TZ_America__Rainy_River</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Rankin Inlet</string>
+						<string>TZ_America__Rankin_Inlet</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Recife</string>
+						<string>TZ_America__Recife</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Regina</string>
+						<string>TZ_America__Regina</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Resolute</string>
+						<string>TZ_America__Resolute</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Rio Branco</string>
+						<string>TZ_America__Rio_Branco</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Santarem</string>
+						<string>TZ_America__Santarem</string>
+					</array>
+					<array>
+						<string>🇨🇱 America / Santiago</string>
+						<string>TZ_America__Santiago</string>
+					</array>
+					<array>
+						<string>🇩🇴 America / Santo Domingo</string>
+						<string>TZ_America__Santo_Domingo</string>
+					</array>
+					<array>
+						<string>🇧🇷 America / Sao Paulo</string>
+						<string>TZ_America__Sao_Paulo</string>
+					</array>
+					<array>
+						<string>🇬🇱 America / Scoresbysund</string>
+						<string>TZ_America__Scoresbysund</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Sitka</string>
+						<string>TZ_America__Sitka</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / St Johns</string>
+						<string>TZ_America__St_Johns</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Swift Current</string>
+						<string>TZ_America__Swift_Current</string>
+					</array>
+					<array>
+						<string>🇭🇳 America / Tegucigalpa</string>
+						<string>TZ_America__Tegucigalpa</string>
+					</array>
+					<array>
+						<string>🇬🇱 America / Thule</string>
+						<string>TZ_America__Thule</string>
+					</array>
+					<array>
+						<string>🌐 America / Thunder Bay</string>
+						<string>TZ_America__Thunder_Bay</string>
+					</array>
+					<array>
+						<string>🇲🇽 America / Tijuana</string>
+						<string>TZ_America__Tijuana</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Toronto</string>
+						<string>TZ_America__Toronto</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Vancouver</string>
+						<string>TZ_America__Vancouver</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Whitehorse</string>
+						<string>TZ_America__Whitehorse</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Winnipeg</string>
+						<string>TZ_America__Winnipeg</string>
+					</array>
+					<array>
+						<string>🇺🇸 America / Yakutat</string>
+						<string>TZ_America__Yakutat</string>
+					</array>
+					<array>
+						<string>🇨🇦 America / Yellowknife</string>
+						<string>TZ_America__Yellowknife</string>
+					</array>
+					<array>
+						<string>🇦🇶 Antarctica / Casey</string>
+						<string>TZ_Antarctica__Casey</string>
+					</array>
+					<array>
+						<string>🇦🇶 Antarctica / Davis</string>
+						<string>TZ_Antarctica__Davis</string>
+					</array>
+					<array>
+						<string>🇦🇺 Antarctica / Macquarie</string>
+						<string>TZ_Antarctica__Macquarie</string>
+					</array>
+					<array>
+						<string>🇦🇶 Antarctica / Mawson</string>
+						<string>TZ_Antarctica__Mawson</string>
+					</array>
+					<array>
+						<string>🇦🇶 Antarctica / Palmer</string>
+						<string>TZ_Antarctica__Palmer</string>
+					</array>
+					<array>
+						<string>🇦🇶 Antarctica / Rothera</string>
+						<string>TZ_Antarctica__Rothera</string>
+					</array>
+					<array>
+						<string>🇦🇶 Antarctica / Troll</string>
+						<string>TZ_Antarctica__Troll</string>
+					</array>
+					<array>
+						<string>🇰🇿 Asia / Almaty</string>
+						<string>TZ_Asia__Almaty</string>
+					</array>
+					<array>
+						<string>🇯🇴 Asia / Amman</string>
+						<string>TZ_Asia__Amman</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Anadyr</string>
+						<string>TZ_Asia__Anadyr</string>
+					</array>
+					<array>
+						<string>🇰🇿 Asia / Aqtau</string>
+						<string>TZ_Asia__Aqtau</string>
+					</array>
+					<array>
+						<string>🇰🇿 Asia / Aqtobe</string>
+						<string>TZ_Asia__Aqtobe</string>
+					</array>
+					<array>
+						<string>🇹🇲 Asia / Ashgabat</string>
+						<string>TZ_Asia__Ashgabat</string>
+					</array>
+					<array>
+						<string>🇰🇿 Asia / Atyrau</string>
+						<string>TZ_Asia__Atyrau</string>
+					</array>
+					<array>
+						<string>🇮🇶 Asia / Baghdad</string>
+						<string>TZ_Asia__Baghdad</string>
+					</array>
+					<array>
+						<string>🇦🇿 Asia / Baku</string>
+						<string>TZ_Asia__Baku</string>
+					</array>
+					<array>
+						<string>🇹🇭 Asia / Bangkok</string>
+						<string>TZ_Asia__Bangkok</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Barnaul</string>
+						<string>TZ_Asia__Barnaul</string>
+					</array>
+					<array>
+						<string>🇱🇧 Asia / Beirut</string>
+						<string>TZ_Asia__Beirut</string>
+					</array>
+					<array>
+						<string>🇰🇬 Asia / Bishkek</string>
+						<string>TZ_Asia__Bishkek</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Chita</string>
+						<string>TZ_Asia__Chita</string>
+					</array>
+					<array>
+						<string>🇲🇳 Asia / Choibalsan</string>
+						<string>TZ_Asia__Choibalsan</string>
+					</array>
+					<array>
+						<string>🇱🇰 Asia / Colombo</string>
+						<string>TZ_Asia__Colombo</string>
+					</array>
+					<array>
+						<string>🇸🇾 Asia / Damascus</string>
+						<string>TZ_Asia__Damascus</string>
+					</array>
+					<array>
+						<string>🇧🇩 Asia / Dhaka</string>
+						<string>TZ_Asia__Dhaka</string>
+					</array>
+					<array>
+						<string>🇹🇱 Asia / Dili</string>
+						<string>TZ_Asia__Dili</string>
+					</array>
+					<array>
+						<string>🇦🇪 Asia / Dubai</string>
+						<string>TZ_Asia__Dubai</string>
+					</array>
+					<array>
+						<string>🇹🇯 Asia / Dushanbe</string>
+						<string>TZ_Asia__Dushanbe</string>
+					</array>
+					<array>
+						<string>🇨🇾 Asia / Famagusta</string>
+						<string>TZ_Asia__Famagusta</string>
+					</array>
+					<array>
+						<string>🇵🇸 Asia / Gaza</string>
+						<string>TZ_Asia__Gaza</string>
+					</array>
+					<array>
+						<string>🇵🇸 Asia / Hebron</string>
+						<string>TZ_Asia__Hebron</string>
+					</array>
+					<array>
+						<string>🇻🇳 Asia / Ho Chi Minh</string>
+						<string>TZ_Asia__Ho_Chi_Minh</string>
+					</array>
+					<array>
+						<string>🇭🇰 Asia / Hong Kong</string>
+						<string>TZ_Asia__Hong_Kong</string>
+					</array>
+					<array>
+						<string>🇲🇳 Asia / Hovd</string>
+						<string>TZ_Asia__Hovd</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Irkutsk</string>
+						<string>TZ_Asia__Irkutsk</string>
+					</array>
+					<array>
+						<string>🇮🇩 Asia / Jakarta</string>
+						<string>TZ_Asia__Jakarta</string>
+					</array>
+					<array>
+						<string>🇮🇩 Asia / Jayapura</string>
+						<string>TZ_Asia__Jayapura</string>
+					</array>
+					<array>
+						<string>🇮🇱 Asia / Jerusalem</string>
+						<string>TZ_Asia__Jerusalem</string>
+					</array>
+					<array>
+						<string>🇦🇫 Asia / Kabul</string>
+						<string>TZ_Asia__Kabul</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Kamchatka</string>
+						<string>TZ_Asia__Kamchatka</string>
+					</array>
+					<array>
+						<string>🇵🇰 Asia / Karachi</string>
+						<string>TZ_Asia__Karachi</string>
+					</array>
+					<array>
+						<string>🇳🇵 Asia / Kathmandu</string>
+						<string>TZ_Asia__Kathmandu</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Khandyga</string>
+						<string>TZ_Asia__Khandyga</string>
+					</array>
+					<array>
+						<string>🇮🇳 Asia / Kolkata</string>
+						<string>TZ_Asia__Kolkata</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Krasnoyarsk</string>
+						<string>TZ_Asia__Krasnoyarsk</string>
+					</array>
+					<array>
+						<string>🇲🇾 Asia / Kuching</string>
+						<string>TZ_Asia__Kuching</string>
+					</array>
+					<array>
+						<string>🇲🇴 Asia / Macau</string>
+						<string>TZ_Asia__Macau</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Magadan</string>
+						<string>TZ_Asia__Magadan</string>
+					</array>
+					<array>
+						<string>🇮🇩 Asia / Makassar</string>
+						<string>TZ_Asia__Makassar</string>
+					</array>
+					<array>
+						<string>🇵🇭 Asia / Manila</string>
+						<string>TZ_Asia__Manila</string>
+					</array>
+					<array>
+						<string>🇨🇾 Asia / Nicosia</string>
+						<string>TZ_Asia__Nicosia</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Novokuznetsk</string>
+						<string>TZ_Asia__Novokuznetsk</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Novosibirsk</string>
+						<string>TZ_Asia__Novosibirsk</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Omsk</string>
+						<string>TZ_Asia__Omsk</string>
+					</array>
+					<array>
+						<string>🇰🇿 Asia / Oral</string>
+						<string>TZ_Asia__Oral</string>
+					</array>
+					<array>
+						<string>🇮🇩 Asia / Pontianak</string>
+						<string>TZ_Asia__Pontianak</string>
+					</array>
+					<array>
+						<string>🇰🇵 Asia / Pyongyang</string>
+						<string>TZ_Asia__Pyongyang</string>
+					</array>
+					<array>
+						<string>🇶🇦 Asia / Qatar</string>
+						<string>TZ_Asia__Qatar</string>
+					</array>
+					<array>
+						<string>🇰🇿 Asia / Qostanay</string>
+						<string>TZ_Asia__Qostanay</string>
+					</array>
+					<array>
+						<string>🇰🇿 Asia / Qyzylorda</string>
+						<string>TZ_Asia__Qyzylorda</string>
+					</array>
+					<array>
+						<string>🇸🇦 Asia / Riyadh</string>
+						<string>TZ_Asia__Riyadh</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Sakhalin</string>
+						<string>TZ_Asia__Sakhalin</string>
+					</array>
+					<array>
+						<string>🇺🇿 Asia / Samarkand</string>
+						<string>TZ_Asia__Samarkand</string>
+					</array>
+					<array>
+						<string>🇰🇷 Asia / Seoul</string>
+						<string>TZ_Asia__Seoul</string>
+					</array>
+					<array>
+						<string>🇨🇳 Asia / Shanghai</string>
+						<string>TZ_Asia__Shanghai</string>
+					</array>
+					<array>
+						<string>🇸🇬 Asia / Singapore</string>
+						<string>TZ_Asia__Singapore</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Srednekolymsk</string>
+						<string>TZ_Asia__Srednekolymsk</string>
+					</array>
+					<array>
+						<string>🇹🇼 Asia / Taipei</string>
+						<string>TZ_Asia__Taipei</string>
+					</array>
+					<array>
+						<string>🇺🇿 Asia / Tashkent</string>
+						<string>TZ_Asia__Tashkent</string>
+					</array>
+					<array>
+						<string>🇬🇪 Asia / Tbilisi</string>
+						<string>TZ_Asia__Tbilisi</string>
+					</array>
+					<array>
+						<string>🇮🇷 Asia / Tehran</string>
+						<string>TZ_Asia__Tehran</string>
+					</array>
+					<array>
+						<string>🇧🇹 Asia / Thimphu</string>
+						<string>TZ_Asia__Thimphu</string>
+					</array>
+					<array>
+						<string>🇯🇵 Asia / Tokyo</string>
+						<string>TZ_Asia__Tokyo</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Tomsk</string>
+						<string>TZ_Asia__Tomsk</string>
+					</array>
+					<array>
+						<string>🇲🇳 Asia / Ulaanbaatar</string>
+						<string>TZ_Asia__Ulaanbaatar</string>
+					</array>
+					<array>
+						<string>🇨🇳 Asia / Urumqi</string>
+						<string>TZ_Asia__Urumqi</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Ust-Nera</string>
+						<string>TZ_Asia__Ust-Nera</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Vladivostok</string>
+						<string>TZ_Asia__Vladivostok</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Yakutsk</string>
+						<string>TZ_Asia__Yakutsk</string>
+					</array>
+					<array>
+						<string>🇲🇲 Asia / Yangon</string>
+						<string>TZ_Asia__Yangon</string>
+					</array>
+					<array>
+						<string>🇷🇺 Asia / Yekaterinburg</string>
+						<string>TZ_Asia__Yekaterinburg</string>
+					</array>
+					<array>
+						<string>🇦🇲 Asia / Yerevan</string>
+						<string>TZ_Asia__Yerevan</string>
+					</array>
+					<array>
+						<string>🇵🇹 Atlantic / Azores</string>
+						<string>TZ_Atlantic__Azores</string>
+					</array>
+					<array>
+						<string>🇧🇲 Atlantic / Bermuda</string>
+						<string>TZ_Atlantic__Bermuda</string>
+					</array>
+					<array>
+						<string>🇪🇸 Atlantic / Canary</string>
+						<string>TZ_Atlantic__Canary</string>
+					</array>
+					<array>
+						<string>🇨🇻 Atlantic / Cape Verde</string>
+						<string>TZ_Atlantic__Cape_Verde</string>
+					</array>
+					<array>
+						<string>🇫🇴 Atlantic / Faroe</string>
+						<string>TZ_Atlantic__Faroe</string>
+					</array>
+					<array>
+						<string>🇵🇹 Atlantic / Madeira</string>
+						<string>TZ_Atlantic__Madeira</string>
+					</array>
+					<array>
+						<string>🇬🇸 Atlantic / South Georgia</string>
+						<string>TZ_Atlantic__South_Georgia</string>
+					</array>
+					<array>
+						<string>🇫🇰 Atlantic / Stanley</string>
+						<string>TZ_Atlantic__Stanley</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Adelaide</string>
+						<string>TZ_Australia__Adelaide</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Brisbane</string>
+						<string>TZ_Australia__Brisbane</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Broken Hill</string>
+						<string>TZ_Australia__Broken_Hill</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Darwin</string>
+						<string>TZ_Australia__Darwin</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Eucla</string>
+						<string>TZ_Australia__Eucla</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Hobart</string>
+						<string>TZ_Australia__Hobart</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Lindeman</string>
+						<string>TZ_Australia__Lindeman</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Lord Howe</string>
+						<string>TZ_Australia__Lord_Howe</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Melbourne</string>
+						<string>TZ_Australia__Melbourne</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Perth</string>
+						<string>TZ_Australia__Perth</string>
+					</array>
+					<array>
+						<string>🇦🇺 Australia / Sydney</string>
+						<string>TZ_Australia__Sydney</string>
+					</array>
+					<array>
+						<string>🇦🇩 Europe / Andorra</string>
+						<string>TZ_Europe__Andorra</string>
+					</array>
+					<array>
+						<string>🇷🇺 Europe / Astrakhan</string>
+						<string>TZ_Europe__Astrakhan</string>
+					</array>
+					<array>
+						<string>🇬🇷 Europe / Athens</string>
+						<string>TZ_Europe__Athens</string>
+					</array>
+					<array>
+						<string>🇷🇸 Europe / Belgrade</string>
+						<string>TZ_Europe__Belgrade</string>
+					</array>
+					<array>
+						<string>🇩🇪 Europe / Berlin</string>
+						<string>TZ_Europe__Berlin</string>
+					</array>
+					<array>
+						<string>🇧🇪 Europe / Brussels</string>
+						<string>TZ_Europe__Brussels</string>
+					</array>
+					<array>
+						<string>🇷🇴 Europe / Bucharest</string>
+						<string>TZ_Europe__Bucharest</string>
+					</array>
+					<array>
+						<string>🇭🇺 Europe / Budapest</string>
+						<string>TZ_Europe__Budapest</string>
+					</array>
+					<array>
+						<string>🇲🇩 Europe / Chisinau</string>
+						<string>TZ_Europe__Chisinau</string>
+					</array>
+					<array>
+						<string>🇮🇪 Europe / Dublin</string>
+						<string>TZ_Europe__Dublin</string>
+					</array>
+					<array>
+						<string>🇬🇮 Europe / Gibraltar</string>
+						<string>TZ_Europe__Gibraltar</string>
+					</array>
+					<array>
+						<string>🇫🇮 Europe / Helsinki</string>
+						<string>TZ_Europe__Helsinki</string>
+					</array>
+					<array>
+						<string>🇹🇷 Europe / Istanbul</string>
+						<string>TZ_Europe__Istanbul</string>
+					</array>
+					<array>
+						<string>🇷🇺 Europe / Kaliningrad</string>
+						<string>TZ_Europe__Kaliningrad</string>
+					</array>
+					<array>
+						<string>🇷🇺 Europe / Kirov</string>
+						<string>TZ_Europe__Kirov</string>
+					</array>
+					<array>
+						<string>🇺🇦 Europe / Kyiv</string>
+						<string>TZ_Europe__Kyiv</string>
+					</array>
+					<array>
+						<string>🇵🇹 Europe / Lisbon</string>
+						<string>TZ_Europe__Lisbon</string>
+					</array>
+					<array>
+						<string>🇬🇧 Europe / London</string>
+						<string>TZ_Europe__London</string>
+					</array>
+					<array>
+						<string>🇪🇸 Europe / Madrid</string>
+						<string>TZ_Europe__Madrid</string>
+					</array>
+					<array>
+						<string>🇲🇹 Europe / Malta</string>
+						<string>TZ_Europe__Malta</string>
+					</array>
+					<array>
+						<string>🇧🇾 Europe / Minsk</string>
+						<string>TZ_Europe__Minsk</string>
+					</array>
+					<array>
+						<string>🇷🇺 Europe / Moscow</string>
+						<string>TZ_Europe__Moscow</string>
+					</array>
+					<array>
+						<string>🇫🇷 Europe / Paris</string>
+						<string>TZ_Europe__Paris</string>
+					</array>
+					<array>
+						<string>🇨🇿 Europe / Prague</string>
+						<string>TZ_Europe__Prague</string>
+					</array>
+					<array>
+						<string>🇱🇻 Europe / Riga</string>
+						<string>TZ_Europe__Riga</string>
+					</array>
+					<array>
+						<string>🇮🇹 Europe / Rome</string>
+						<string>TZ_Europe__Rome</string>
+					</array>
+					<array>
+						<string>🇷🇺 Europe / Samara</string>
+						<string>TZ_Europe__Samara</string>
+					</array>
+					<array>
+						<string>🇷🇺 Europe / Saratov</string>
+						<string>TZ_Europe__Saratov</string>
+					</array>
+					<array>
+						<string>🇺🇦 Europe / Simferopol</string>
+						<string>TZ_Europe__Simferopol</string>
+					</array>
+					<array>
+						<string>🇧🇬 Europe / Sofia</string>
+						<string>TZ_Europe__Sofia</string>
+					</array>
+					<array>
+						<string>🇪🇪 Europe / Tallinn</string>
+						<string>TZ_Europe__Tallinn</string>
+					</array>
+					<array>
+						<string>🇦🇱 Europe / Tirane</string>
+						<string>TZ_Europe__Tirane</string>
+					</array>
+					<array>
+						<string>🇷🇺 Europe / Ulyanovsk</string>
+						<string>TZ_Europe__Ulyanovsk</string>
+					</array>
+					<array>
+						<string>🇦🇹 Europe / Vienna</string>
+						<string>TZ_Europe__Vienna</string>
+					</array>
+					<array>
+						<string>🇱🇹 Europe / Vilnius</string>
+						<string>TZ_Europe__Vilnius</string>
+					</array>
+					<array>
+						<string>🇷🇺 Europe / Volgograd</string>
+						<string>TZ_Europe__Volgograd</string>
+					</array>
+					<array>
+						<string>🇵🇱 Europe / Warsaw</string>
+						<string>TZ_Europe__Warsaw</string>
+					</array>
+					<array>
+						<string>🇨🇭 Europe / Zurich</string>
+						<string>TZ_Europe__Zurich</string>
+					</array>
+					<array>
+						<string>🇮🇴 Indian / Chagos</string>
+						<string>TZ_Indian__Chagos</string>
+					</array>
+					<array>
+						<string>🇲🇻 Indian / Maldives</string>
+						<string>TZ_Indian__Maldives</string>
+					</array>
+					<array>
+						<string>🇲🇺 Indian / Mauritius</string>
+						<string>TZ_Indian__Mauritius</string>
+					</array>
+					<array>
+						<string>🇼🇸 Pacific / Apia</string>
+						<string>TZ_Pacific__Apia</string>
+					</array>
+					<array>
+						<string>🇳🇿 Pacific / Auckland</string>
+						<string>TZ_Pacific__Auckland</string>
+					</array>
+					<array>
+						<string>🇵🇬 Pacific / Bougainville</string>
+						<string>TZ_Pacific__Bougainville</string>
+					</array>
+					<array>
+						<string>🇳🇿 Pacific / Chatham</string>
+						<string>TZ_Pacific__Chatham</string>
+					</array>
+					<array>
+						<string>🇨🇱 Pacific / Easter</string>
+						<string>TZ_Pacific__Easter</string>
+					</array>
+					<array>
+						<string>🇻🇺 Pacific / Efate</string>
+						<string>TZ_Pacific__Efate</string>
+					</array>
+					<array>
+						<string>🇹🇰 Pacific / Fakaofo</string>
+						<string>TZ_Pacific__Fakaofo</string>
+					</array>
+					<array>
+						<string>🇫🇯 Pacific / Fiji</string>
+						<string>TZ_Pacific__Fiji</string>
+					</array>
+					<array>
+						<string>🇪🇨 Pacific / Galapagos</string>
+						<string>TZ_Pacific__Galapagos</string>
+					</array>
+					<array>
+						<string>🇵🇫 Pacific / Gambier</string>
+						<string>TZ_Pacific__Gambier</string>
+					</array>
+					<array>
+						<string>🇸🇧 Pacific / Guadalcanal</string>
+						<string>TZ_Pacific__Guadalcanal</string>
+					</array>
+					<array>
+						<string>🇬🇺 Pacific / Guam</string>
+						<string>TZ_Pacific__Guam</string>
+					</array>
+					<array>
+						<string>🇺🇸 Pacific / Honolulu</string>
+						<string>TZ_Pacific__Honolulu</string>
+					</array>
+					<array>
+						<string>🇰🇮 Pacific / Kanton</string>
+						<string>TZ_Pacific__Kanton</string>
+					</array>
+					<array>
+						<string>🇰🇮 Pacific / Kiritimati</string>
+						<string>TZ_Pacific__Kiritimati</string>
+					</array>
+					<array>
+						<string>🇫🇲 Pacific / Kosrae</string>
+						<string>TZ_Pacific__Kosrae</string>
+					</array>
+					<array>
+						<string>🇲🇭 Pacific / Kwajalein</string>
+						<string>TZ_Pacific__Kwajalein</string>
+					</array>
+					<array>
+						<string>🇵🇫 Pacific / Marquesas</string>
+						<string>TZ_Pacific__Marquesas</string>
+					</array>
+					<array>
+						<string>🇳🇷 Pacific / Nauru</string>
+						<string>TZ_Pacific__Nauru</string>
+					</array>
+					<array>
+						<string>🇳🇺 Pacific / Niue</string>
+						<string>TZ_Pacific__Niue</string>
+					</array>
+					<array>
+						<string>🇳🇫 Pacific / Norfolk</string>
+						<string>TZ_Pacific__Norfolk</string>
+					</array>
+					<array>
+						<string>🇳🇨 Pacific / Noumea</string>
+						<string>TZ_Pacific__Noumea</string>
+					</array>
+					<array>
+						<string>🇦🇸 Pacific / Pago Pago</string>
+						<string>TZ_Pacific__Pago_Pago</string>
+					</array>
+					<array>
+						<string>🇵🇼 Pacific / Palau</string>
+						<string>TZ_Pacific__Palau</string>
+					</array>
+					<array>
+						<string>🇵🇳 Pacific / Pitcairn</string>
+						<string>TZ_Pacific__Pitcairn</string>
+					</array>
+					<array>
+						<string>🇵🇬 Pacific / Port Moresby</string>
+						<string>TZ_Pacific__Port_Moresby</string>
+					</array>
+					<array>
+						<string>🇨🇰 Pacific / Rarotonga</string>
+						<string>TZ_Pacific__Rarotonga</string>
+					</array>
+					<array>
+						<string>🇵🇫 Pacific / Tahiti</string>
+						<string>TZ_Pacific__Tahiti</string>
+					</array>
+					<array>
+						<string>🇰🇮 Pacific / Tarawa</string>
+						<string>TZ_Pacific__Tarawa</string>
+					</array>
+					<array>
+						<string>🇹🇴 Pacific / Tongatapu</string>
+						<string>TZ_Pacific__Tongatapu</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Timezone where you currently are.</string>
+			<key>label</key>
+			<string>Home</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>HOME</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<true/>
 				<key>required</key>
 				<false/>
@@ -6149,7 +7431,7 @@
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.7.0</string>
+	<string>1.8.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/fedecalendino/alfred-world-clock</string>
 </dict>
