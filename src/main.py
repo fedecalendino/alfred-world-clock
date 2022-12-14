@@ -54,20 +54,44 @@ def main(workflow):
         elif timezone == "UTC":
             icon = "img/icons/utc.png"
         else:
-            offset = now.utcoffset()
-            offset_hours = round(offset.days * 24 + offset.seconds / 60 / 60)
-            icon = f"img/icons/{offset_hours}.png"
+            utc_offset = now.utcoffset()
+            utc_offset_hours = round(
+                utc_offset.days * 24 + utc_offset.seconds / 60 / 60
+            )
+            icon = f"img/icons/{utc_offset_hours}.png"
 
         location = timezone.replace("/", ", ").replace("_", " ")
+
+        if timezone == home_tz:
+            home_offset_str = ""
+        else:
+            now_tmp = now.replace(tzinfo=None)
+            home_now_tmp = home_now.replace(tzinfo=None)
+
+            if home_now_tmp > now_tmp:
+                home_offset = home_now_tmp - now_tmp
+                seconds = home_offset.seconds + 1
+                text = "behind"
+            else:
+                home_offset = home_now_tmp - now_tmp
+                seconds = 24 * 60 * 60 - home_offset.seconds + 1
+                text = "ahead of"
+
+            home_offset_str = "· {hours:02}:{minutes:02}hs {text} home 🏠".format(
+                hours=seconds // 3600,
+                minutes=(seconds % 3600) // 60,
+                text=text,
+            )
 
         workflow.new_item(
             title="{time} ({date})".format(
                 time=now.strftime(TIME_FORMAT),
                 date=now.strftime(DATE_FORMAT),
             ),
-            subtitle="{flag} {location}".format(
+            subtitle="{flag} {location} {home_offset}".format(
                 flag=data.flags.get(timezone, "🌐"),
                 location=location,
+                home_offset=home_offset_str,
             ),
             arg=now.isoformat(),
             copytext=now.isoformat(),
