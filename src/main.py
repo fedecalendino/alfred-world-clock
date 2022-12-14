@@ -1,5 +1,6 @@
 import os
 import sys
+from uuid import uuid4
 from datetime import datetime
 
 import pytz as tz
@@ -24,15 +25,16 @@ def main(workflow):
         )
     )
 
-    timezones = map(
-        lambda item: item[0][3:].replace("__", "/"),
-        filter(
-            lambda item: item[0].startswith("TZ_")
-            and item[1] == "1"
-            and item[0] != home,
-            workflow.env.items(),
-        ),
+    timezones = set(
+        map(
+            lambda item: item[0][3:].replace("__", "/"),
+            filter(
+                lambda item: item[0].startswith("TZ_") and item[1] == "1",
+                workflow.env.items(),
+            ),
+        )
     )
+    timezones.add(home_tz)
 
     timezones = {
         timezone: datetime.utcnow()
@@ -41,14 +43,9 @@ def main(workflow):
         for timezone in timezones
     }
 
-    timezones = [(home_tz, home_now)] + list(
-        sorted(
-            timezones.items(),
-            key=lambda item: item[1].isoformat(),
-        )
-    )
-
-    for timezone, now in timezones:
+    for timezone, now in sorted(
+        timezones.items(), key=lambda pair: pair[1].isoformat()
+    ):
         if timezone == home_tz:
             icon = "img/icons/home.png"
         elif timezone == "UTC":
@@ -77,7 +74,7 @@ def main(workflow):
                 seconds = 24 * 60 * 60 - home_offset.seconds + 1
                 text = "ahead of"
 
-            home_offset_str = "· {hours:02}:{minutes:02}hs {text} home 🏠".format(
+            home_offset_str = "· [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
                 hours=seconds // 3600,
                 minutes=(seconds % 3600) // 60,
                 text=text,
@@ -96,7 +93,7 @@ def main(workflow):
             arg=now.isoformat(),
             copytext=now.isoformat(),
             valid=True,
-            uid=timezone,
+            uid=str(uuid4()),
         ).set_icon_file(
             path=icon,
         )
