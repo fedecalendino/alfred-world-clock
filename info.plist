@@ -1167,6 +1167,10 @@
 						<string>TZ_Europe__Chisinau</string>
 					</array>
 					<array>
+						<string>🇩🇰 Europe / Copenhagen</string>
+						<string>TZ_Europe__Copenhagen</string>
+					</array>
+					<array>
 						<string>🇮🇪 Europe / Dublin</string>
 						<string>TZ_Europe__Dublin</string>
 					</array>
@@ -6259,6 +6263,25 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
+				<string>🇩🇰 Europe / Copenhagen</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>TZ_Europe__Copenhagen</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string>🇮🇪 Europe / Dublin</string>
 			</dict>
 			<key>description</key>
@@ -7431,7 +7454,7 @@
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.8.1</string>
+	<string>1.8.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/fedecalendino/alfred-world-clock</string>
 </dict>
