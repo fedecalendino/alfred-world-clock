@@ -85,9 +85,9 @@ def main(workflow):
         # Apply formatting
         # -------------------
         timestamp_format = workflow.env["TIMESTAMP_FORMAT"]
-        if timestamp_format == "FORMAT_ISO8601":
+        if timestamp_format == "FORMAT_ISO8601_WITHOUT_MICROSECONDS":
             timestamp = now.replace(microsecond=0).isoformat()
-        elif timestamp_format == "FORMAT_ISO8601_MICROSECONDS":
+        elif timestamp_format == "FORMAT_ISO8601_WITH_MICROSECONDS":
             timestamp = now.isoformat()
         else:
             # FORMAT_DEFAULT
@@ -113,7 +113,7 @@ def main(workflow):
             subtitle="Copy ISO format (with microseconds)",
             arg=now.isoformat(),
         ).set_cmd_mod(
-            subtitle="Copy ISO format",
+            subtitle="Copy ISO format (without microseconds)",
             arg=now.replace(microsecond=0).isoformat(),
         )
 
