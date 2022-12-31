@@ -80,7 +80,7 @@ def main(workflow):
                 text=text,
             )
 
-        if workflow.env["INCLUDE_MICROSECONDS"]:
+        if workflow.env["INCLUDE_MICROSECONDS"] == "1":
             iso_time = now.isoformat()
         else:
             iso_time = now.replace(microsecond=0).isoformat()
