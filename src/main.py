@@ -80,18 +80,20 @@ def main(workflow):
                 text=text,
             )
 
+        iso_time = now.replace(microsecond=0).isoformat()
         workflow.new_item(
-            title="{time} ({date})".format(
-                time=now.strftime(TIME_FORMAT),
-                date=now.strftime(DATE_FORMAT),
-            ),
+            # title="{time} ({date})".format(
+            #     time=now.strftime(TIME_FORMAT),
+            #     date=now.strftime(DATE_FORMAT),
+            # ),
+            title="{now}".format(now=iso_time),
             subtitle="{flag} {location} {home_offset}".format(
                 flag=data.flags.get(timezone, "🌐"),
                 location=location,
                 home_offset=home_offset_str,
             ),
-            arg=now.isoformat(),
-            copytext=now.isoformat(),
+            arg=iso_time,
+            copytext=iso_time,
             valid=True,
             uid=str(uuid4()),
         ).set_icon_file(
