@@ -1433,39 +1433,31 @@
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Display times in system default format</string>
+				<string>FORMAT_DEFAULT</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Default Format</string>
+						<string>FORMAT_DEFAULT</string>
+					</array>
+					<array>
+						<string>ISO8601</string>
+						<string>FORMAT_ISO8601</string>
+					</array>
+					<array>
+						<string>ISO8601 (With Microseconds)</string>
+						<string>FORMAT_ISO8601_MICROSECONDS</string>
+					</array>
+				</array>
 			</dict>
 			<key>description</key>
-			<string>If unchecked, displayed times will be in ISO8601 format (Copied times are always in ISO8601 format).</string>
+			<string>The formatting of the timestamp.</string>
 			<key>label</key>
 			<string>Format</string>
 			<key>type</key>
-			<string>checkbox</string>
+			<string>popupbutton</string>
 			<key>variable</key>
-			<string>DISPLAY_FORMAT_DEFAULT</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Include microseconds</string>
-			</dict>
-			<key>description</key>
-			<string>Include microseconds in ISO8601 format.</string>
-			<key>label</key>
-			<string></string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>INCLUDE_MICROSECONDS</string>
+			<string>TIMESTAMP_FORMAT</string>
 		</dict>
 		<dict>
 			<key>config</key>
