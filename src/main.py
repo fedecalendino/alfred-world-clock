@@ -80,7 +80,11 @@ def main(workflow):
                 text=text,
             )
 
-        iso_time = now.replace(microsecond=0).isoformat()
+        if workflow.env["INCLUDE_MICROSECONDS"]:
+            iso_time = now.isoformat()
+        else:
+            iso_time = now.replace(microsecond=0).isoformat()
+
         workflow.new_item(
             # title="{time} ({date})".format(
             #     time=now.strftime(TIME_FORMAT),

@@ -1429,7 +1429,7 @@
 			<key>variable</key>
 			<string>HOME</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>default</key>
@@ -1437,16 +1437,16 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Include millisecods</string>
+				<string>Include microseconds</string>
 			</dict>
 			<key>description</key>
-			<string>Include millisecods in ISO8601 timestamp.</string>
+			<string>Include microseconds in ISO8601 timestamp.</string>
 			<key>label</key>
 			<string>Format</string>
 			<key>type</key>
 			<string>checkbox</string>
 			<key>variable</key>
-			<string>INCLUDE_MILLISECONDS</string>
+			<string>INCLUDE_MICROSECONDS</string>
 		</dict>
 		<dict>
 			<key>config</key>
