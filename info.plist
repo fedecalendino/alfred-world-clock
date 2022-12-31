@@ -1437,7 +1437,7 @@
 				<key>pairs</key>
 				<array>
 					<array>
-						<string>Default Format</string>
+						<string>Default format</string>
 						<string>FORMAT_DEFAULT</string>
 					</array>
 					<array>
@@ -1445,7 +1445,7 @@
 						<string>FORMAT_ISO8601</string>
 					</array>
 					<array>
-						<string>ISO8601 (With Microseconds)</string>
+						<string>ISO8601 (with microseconds)</string>
 						<string>FORMAT_ISO8601_MICROSECONDS</string>
 					</array>
 				</array>

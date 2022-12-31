@@ -86,7 +86,7 @@ def main(workflow):
         # -------------------
         timestamp_format = workflow.env["TIMESTAMP_FORMAT"]
         if timestamp_format == "FORMAT_ISO8601":
-            timestamp =  now.replace(microsecond=0).isoformat()
+            timestamp = now.replace(microsecond=0).isoformat()
         elif timestamp_format == "FORMAT_ISO8601_MICROSECONDS":
             timestamp = now.isoformat()
         else:
@@ -95,19 +95,6 @@ def main(workflow):
                 time=now.strftime(TIME_FORMAT),
                 date=now.strftime(DATE_FORMAT),
             )
-
-        # if workflow.env["INCLUDE_MICROSECONDS"] == "1":
-        #     iso_time = now.isoformat()
-        # else:
-        #     iso_time = now.replace(microsecond=0).isoformat()
-
-        # if workflow.env["DISPLAY_FORMAT_DEFAULT"] == "1":
-        #     display_time = "{time} ({date})".format(
-        #         time=now.strftime(TIME_FORMAT),
-        #         date=now.strftime(DATE_FORMAT),
-        #     )
-        # else:
-        #     display_time = iso_time
 
         workflow.new_item(
             title=timestamp,
@@ -122,6 +109,12 @@ def main(workflow):
             uid=str(uuid4()),
         ).set_icon_file(
             path=icon,
+        ).set_alt_mod(
+            subtitle="Copy ISO format (with microseconds)",
+            arg=now.isoformat(),
+        ).set_cmd_mod(
+            subtitle="Copy ISO format",
+            arg=now.replace(microsecond=0).isoformat(),
         )
 
 
