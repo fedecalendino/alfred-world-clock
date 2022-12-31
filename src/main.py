@@ -74,11 +74,10 @@ def main(workflow):
                 seconds = 24 * 60 * 60 - home_offset.seconds + 1
                 text = "ahead of"
 
-            home_offset_str = "· [{hours:02}:{minutes:02} hs {text} home 🏠] {test}".format(
+            home_offset_str = "· [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
                 hours=seconds // 3600,
                 minutes=(seconds % 3600) // 60,
-                text=text,
-                test=workflow.env["TIMESTAMP_FORMAT"]
+                text=text
             )
 
         # -------------------
