@@ -1437,7 +1437,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Display times in system default format.</string>
+				<string>Display times in system default format</string>
 			</dict>
 			<key>description</key>
 			<string>If unchecked, displayed times will be in ISO8601 format (Copied times are always in ISO8601 format).</string>
