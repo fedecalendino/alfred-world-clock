@@ -1429,6 +1429,25 @@
 			<key>variable</key>
 			<string>HOME</string>
 		</dict>
+        <dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Show times in system default format.</string>
+			</dict>
+			<key>description</key>
+			<string>If unchecked, times will be shown in ISO8601 format.</string>
+			<key>label</key>
+			<string>Format</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>DISPLAY_FORMAT_DEFAULT</string>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -1442,7 +1461,7 @@
 			<key>description</key>
 			<string>Include microseconds in ISO8601 timestamp.</string>
 			<key>label</key>
-			<string>Format</string>
+			<string></string>
 			<key>type</key>
 			<string>checkbox</string>
 			<key>variable</key>

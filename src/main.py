@@ -85,12 +85,21 @@ def main(workflow):
         else:
             iso_time = now.replace(microsecond=0).isoformat()
 
+        if workflow.env["DISPLAY_FORMAT_DEFAULT"] == "1":
+            display_time = "{time} ({date})".format(
+                time=now.strftime(TIME_FORMAT),
+                date=now.strftime(DATE_FORMAT),
+            )
+        else:
+            display_time = iso_time
+
         workflow.new_item(
             # title="{time} ({date})".format(
             #     time=now.strftime(TIME_FORMAT),
             #     date=now.strftime(DATE_FORMAT),
             # ),
-            title="{now}".format(now=iso_time),
+            # title="{now}".format(now=iso_time),
+            title=display_time,
             subtitle="{flag} {location} {home_offset}".format(
                 flag=data.flags.get(timezone, "🌐"),
                 location=location,
