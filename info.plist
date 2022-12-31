@@ -1429,7 +1429,7 @@
 			<key>variable</key>
 			<string>HOME</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>default</key>
@@ -1437,10 +1437,10 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Show times in system default format.</string>
+				<string>Display times in system default format.</string>
 			</dict>
 			<key>description</key>
-			<string>If unchecked, times will be shown in ISO8601 format.</string>
+			<string>If unchecked, displayed times will be in ISO8601 format (Copied times are always in ISO8601 format).</string>
 			<key>label</key>
 			<string>Format</string>
 			<key>type</key>
@@ -1459,7 +1459,7 @@
 				<string>Include microseconds</string>
 			</dict>
 			<key>description</key>
-			<string>Include microseconds in ISO8601 timestamp.</string>
+			<string>Include microseconds in ISO8601 format.</string>
 			<key>label</key>
 			<string></string>
 			<key>type</key>
