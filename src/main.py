@@ -74,38 +74,47 @@ def main(workflow):
                 seconds = 24 * 60 * 60 - home_offset.seconds + 1
                 text = "ahead of"
 
-            home_offset_str = "· [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
+            home_offset_str = "· [{hours:02}:{minutes:02} hs {text} home 🏠] {test}".format(
                 hours=seconds // 3600,
                 minutes=(seconds % 3600) // 60,
                 text=text,
+                test=workflow.env["TIMESTAMP_FORMAT"]
             )
 
-        if workflow.env["INCLUDE_MICROSECONDS"] == "1":
-            iso_time = now.isoformat()
+        # -------------------
+        # Apply formatting
+        # -------------------
+        timestamp_format = workflow.env["TIMESTAMP_FORMAT"]
+        if timestamp_format == "FORMAT_ISO8601_WITHOUT_MICROSECONDS":
+            timestamp = now.replace(microsecond=0).isoformat()
+        elif timestamp_format == "FORMAT_ISO8601_WITH_MICROSECONDS":
+            timestamp = now.isoformat()
         else:
-            iso_time = now.replace(microsecond=0).isoformat()
-
-        if workflow.env["DISPLAY_FORMAT_DEFAULT"] == "1":
-            display_time = "{time} ({date})".format(
+            # FORMAT_DEFAULT
+            timestamp = "{time} ({date})".format(
                 time=now.strftime(TIME_FORMAT),
                 date=now.strftime(DATE_FORMAT),
             )
-        else:
-            display_time = iso_time
 
         workflow.new_item(
-            title=display_time,
+            title=timestamp,
             subtitle="{flag} {location} {home_offset}".format(
                 flag=data.flags.get(timezone, "🌐"),
                 location=location,
                 home_offset=home_offset_str,
             ),
-            arg=iso_time,
-            copytext=iso_time,
+            arg=timestamp,
+            copytext=timestamp,
             valid=True,
             uid=str(uuid4()),
         ).set_icon_file(
             path=icon,
+        ).set_alt_mod(
+            subtitle="Copy ISO format (with microseconds)",
+            arg=now.isoformat(),
+        ).set_cmd_mod(
+            subtitle="Copy ISO format (without microseconds)",
+            arg=now.replace(microsecond=0).isoformat(),
         )
 
 
