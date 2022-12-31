@@ -77,7 +77,7 @@ def main(workflow):
             home_offset_str = "· [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
                 hours=seconds // 3600,
                 minutes=(seconds % 3600) // 60,
-                text=text
+                text=text,
             )
 
         # -------------------
