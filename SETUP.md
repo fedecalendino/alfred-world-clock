@@ -1,6 +1,6 @@
 ## SETUP
 
-This documentation is for those who want to setup this workflow locally to do some work on it.
+This documentation is for those who want to setup this workflow locally to do some work on it. PRs welcomed!
 
 
 ### poetry
