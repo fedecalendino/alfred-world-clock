@@ -1433,6 +1433,36 @@
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string>FORMAT_DEFAULT</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Default format</string>
+						<string>FORMAT_DEFAULT</string>
+					</array>
+					<array>
+						<string>ISO8601 (with microseconds)</string>
+						<string>FORMAT_ISO8601_WITH_MICROSECONDS</string>
+					</array>
+					<array>
+						<string>ISO8601 (without microseconds)</string>
+						<string>FORMAT_ISO8601_WITHOUT_MICROSECONDS</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>The timestamp display/copy format.</string>
+			<key>label</key>
+			<string>Format</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>TIMESTAMP_FORMAT</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<true/>
 				<key>required</key>
 				<false/>

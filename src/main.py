@@ -80,22 +80,40 @@ def main(workflow):
                 text=text,
             )
 
-        workflow.new_item(
-            title="{time} ({date})".format(
+        # -------------------
+        # Apply formatting
+        # -------------------
+        timestamp_format = workflow.env["TIMESTAMP_FORMAT"]
+        if timestamp_format == "FORMAT_ISO8601_WITHOUT_MICROSECONDS":
+            timestamp = now.replace(microsecond=0).isoformat()
+        elif timestamp_format == "FORMAT_ISO8601_WITH_MICROSECONDS":
+            timestamp = now.isoformat()
+        else:
+            # FORMAT_DEFAULT
+            timestamp = "{time} ({date})".format(
                 time=now.strftime(TIME_FORMAT),
                 date=now.strftime(DATE_FORMAT),
-            ),
+            )
+
+        workflow.new_item(
+            title=timestamp,
             subtitle="{flag} {location} {home_offset}".format(
                 flag=data.flags.get(timezone, "🌐"),
                 location=location,
                 home_offset=home_offset_str,
             ),
-            arg=now.isoformat(),
-            copytext=now.isoformat(),
+            arg=timestamp,
+            copytext=timestamp,
             valid=True,
             uid=str(uuid4()),
         ).set_icon_file(
             path=icon,
+        ).set_alt_mod(
+            subtitle="Copy ISO format (with microseconds)",
+            arg=now.isoformat(),
+        ).set_cmd_mod(
+            subtitle="Copy ISO format (without microseconds)",
+            arg=now.replace(microsecond=0).isoformat(),
         )
 
 
