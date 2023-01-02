@@ -2,7 +2,7 @@ from datetime import datetime
 
 
 def default(now: datetime) -> str:
-    return now.strftime("%d %B, %Y (%H%:%M:%S)")
+    return now.strftime("%H%:%M:%S (%B %d, %Y)")
 
 
 def iso8601(now: datetime) -> str:
