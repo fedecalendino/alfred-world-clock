@@ -1255,6 +1255,10 @@
 						<string>TZ_Europe__Sofia</string>
 					</array>
 					<array>
+						<string>🇸🇪 Europe / Stockholm</string>
+						<string>TZ_Europe__Stockholm</string>
+					</array>
+					<array>
 						<string>🇪🇪 Europe / Tallinn</string>
 						<string>TZ_Europe__Tallinn</string>
 					</array>
@@ -6711,6 +6715,25 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
+				<string>🇸🇪 Europe / Stockholm</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>TZ_Europe__Stockholm</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string>🇪🇪 Europe / Tallinn</string>
 			</dict>
 			<key>description</key>
@@ -7484,7 +7507,7 @@
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.9.2</string>
+	<string>1.9.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/fedecalendino/alfred-world-clock</string>
 </dict>
