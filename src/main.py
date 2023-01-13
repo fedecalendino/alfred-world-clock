@@ -45,7 +45,7 @@ def get_timezones(workflow, home_tz):
 
 
 def get_formatter(workflow):
-    timestamp_format = workflow.env.get("TIMESTAMP_FORMAT", formatters.default)
+    timestamp_format = workflow.env.get("TIMESTAMP_FORMAT", "FORMAT_DEFAULT")
     return formatters.FORMATTERS[timestamp_format]
 
 

@@ -15,17 +15,20 @@
 #### Usage:
 
 ##### Default Format
-![usage vars](screenshots/usage.png)
+![default](screenshots/usage.png)
 
 - Hold `alt` to copy ISO with microseconds
-![usage vars](screenshots/usage_alt.png)
+![alt modifier](screenshots/usage_alt.png)
 
 - Hold `cmd` to copy ISO without microseconds
-![usage vars](screenshots/usage_cmd.png)
+![cmd modifier](screenshots/usage_cmd.png)
+
+##### AM/PM format
+![ampm](screenshots/usage_ampm.png)
 
 ##### ISO Format (with microseconds)
-![usage vars](screenshots/usage_iso_with_microseconds.png)
+![iso with microseconds](screenshots/usage_iso_with_microseconds.png)
 
 ##### ISO Format (without microseconds)
-![usage vars](screenshots/usage_iso_without_microseconds.png)
+![iso without microseconds](screenshots/usage_iso_without_microseconds.png)
 

@@ -1845,12 +1845,16 @@
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>FORMAT_DEFAULT</string>
+				<string>FORMAT_DEFAULT_24HS</string>
 				<key>pairs</key>
 				<array>
 					<array>
-						<string>Default format</string>
-						<string>FORMAT_DEFAULT</string>
+						<string>Default format (24hs)</string>
+						<string>FORMAT_DEFAULT_24HS</string>
+					</array>
+					<array>
+						<string>Default format (am/pm)</string>
+						<string>FORMAT_DEFAULT_12HS</string>
 					</array>
 					<array>
 						<string>ISO8601 (with microseconds)</string>
@@ -9853,7 +9857,7 @@
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>2.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/fedecalendino/alfred-world-clock</string>
 </dict>
