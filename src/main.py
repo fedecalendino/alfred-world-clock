@@ -92,7 +92,7 @@ def main(workflow):
     sorter = lambda pair: pair[1].isoformat()
 
     for timezone, now in sorted(timezones.items(), key=sorter):
-        location = timezone.replace("/", ", ").replace("_", " ")
+        location = timezone.split("/")[-1].replace("_", " ")
         home_offset_str = get_home_offset_str(timezone, home_tz, now, home_now)
 
         workflow.new_item(
