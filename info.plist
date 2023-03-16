@@ -1579,7 +1579,7 @@
 						<string>TZ_Asia__Damascus</string>
 					</array>
 					<array>
-						<string>🇹🇼 Taiwan, Province of China / Taipei</string>
+						<string>🇹🇼 Taiwan / Taipei</string>
 						<string>TZ_Asia__Taipei</string>
 					</array>
 					<array>
@@ -8666,7 +8666,7 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>🇹🇼 Taiwan, Province of China / Taipei</string>
+				<string>🇹🇼 Taiwan / Taipei</string>
 			</dict>
 			<key>description</key>
 			<string></string>
@@ -9857,7 +9857,7 @@
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2.1.0</string>
+	<string>2.1.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/fedecalendino/alfred-world-clock</string>
 </dict>
