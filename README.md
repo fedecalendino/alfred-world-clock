@@ -32,3 +32,5 @@
 ##### ISO Format (without microseconds)
 ![iso without microseconds](screenshots/usage_iso_without_microseconds.png)
 
+#### Friendly names
+![friendly names](screenshots/friendly_names.png)
