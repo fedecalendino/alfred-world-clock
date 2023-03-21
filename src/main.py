@@ -84,15 +84,51 @@ def get_home_offset_str(timezone, home_tz, now, home_now) -> str:
     )
 
 
+def get_name_replacements(workflow):
+    sep = "//"
+
+    name_replacements = {}
+
+    for line in workflow.env.get("NAME_REPLACEMENTS", "").split("\n"):
+        if not line:
+            continue
+
+        if sep not in line:
+            raise ValueError(
+                f"name replacement '{line}' is missing the '{sep}' separator."
+            )
+
+        parts = line.split(sep)
+
+        if len(parts) != 2:
+            raise ValueError(
+                f"name replacement '{line}' should have the format `old {sep} new`."
+            )
+
+        if "" in parts:
+            raise ValueError(
+                f"name replacement '{line}' should have the format `old {sep} new`."
+            )
+
+        old, new = parts
+        name_replacements[old.strip()] = new.strip()
+
+    return name_replacements
+
+
 def main(workflow):
     home_tz, home_now = get_home(workflow)
     timezones = get_timezones(workflow, home_tz)
     formatter = get_formatter(workflow)
 
+    name_replacements = get_name_replacements(workflow)
+
     sorter = lambda pair: pair[1].isoformat()
 
     for timezone, now in sorted(timezones.items(), key=sorter):
         location = timezone.split("/")[-1].replace("_", " ")
+        location = name_replacements.get(location, location)
+
         home_offset_str = get_home_offset_str(timezone, home_tz, now, home_now)
 
         workflow.new_item(

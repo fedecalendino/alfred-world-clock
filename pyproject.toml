@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "World Clock"
-version = "2.1.1"
+version = "2.2.0"
 description = "Check time in multiple timezones."
 documentation = "https://github.com/fedecalendino/alfred-world-clock/blob/main/README.md"
 homepage = "https://github.com/fedecalendino/alfred-world-clock"
@@ -13,10 +13,10 @@ authors = [
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
 alfred-pyflow = ">=0.3.3"
-pytz = "^2022.7"
+pytz = "^2022.7.1"
 
 [tool.poetry.dev-dependencies]
-black = "22.12.0"
+black = "23.1.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

@@ -6,7 +6,7 @@ with open("country.csv") as file:
     countries = dict(csv.reader(file))
 
 
-with open('time_zone.csv') as file:
+with open("time_zone.csv") as file:
     db = csv.reader(file)
 
     found = set()

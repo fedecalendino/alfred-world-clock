@@ -1879,6 +1879,31 @@
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string>Buenos Aires // Bahía Blanca</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+				<key>verticalsize</key>
+				<integer>3</integer>
+			</dict>
+			<key>description</key>
+			<string>Use this field if you wish to rename a particular city. Add one replacement per line following the format:
+
+Original // Replacement
+
+&gt; for example, Buenos Aires // Bahía Blanca</string>
+			<key>label</key>
+			<string>Fiendly names</string>
+			<key>type</key>
+			<string>textarea</string>
+			<key>variable</key>
+			<string>NAME_REPLACEMENTS</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<true/>
 				<key>required</key>
 				<false/>
@@ -9857,7 +9882,7 @@
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2.1.1</string>
+	<string>2.2.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/fedecalendino/alfred-world-clock</string>
 </dict>
