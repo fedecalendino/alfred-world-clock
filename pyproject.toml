@@ -11,11 +11,9 @@ authors = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.11"
-pytz = "^2022.7.1"
+python = ">=3.8,<3.12"
 alfred-pyflow = "^0.4.5"
-
-
+pytz = "^2023.3"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
