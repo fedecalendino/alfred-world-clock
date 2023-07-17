@@ -2,7 +2,7 @@ from datetime import datetime
 
 
 def default_12hs(now: datetime) -> str:
-    return now.strftime("%I:%M:%S %p (%B %d, %Y)")
+    return now.strftime("%I:%M:%S %p (%B %d, %Y)").lower()
 
 
 def default_24hs(now: datetime) -> str:
