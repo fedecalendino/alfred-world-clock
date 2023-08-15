@@ -1894,7 +1894,7 @@ Original // Replacement
 
 &gt; for example, Buenos Aires // Bahía Blanca</string>
 			<key>label</key>
-			<string>Fiendly names</string>
+			<string>Friendly names</string>
 			<key>type</key>
 			<string>textarea</string>
 			<key>variable</key>
