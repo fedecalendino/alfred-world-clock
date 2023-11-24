@@ -242,6 +242,27 @@
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string>meet</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword2</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<string>TZ_UTC</string>
 				<key>pairs</key>
 				<array>
@@ -9974,27 +9995,6 @@ Original // Replacement
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>TZ_Europe__Mariehamn</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<string>meet</string>
-				<key>placeholder</key>
-				<string></string>
-				<key>required</key>
-				<true/>
-				<key>trim</key>
-				<true/>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string></string>
-			<key>type</key>
-			<string>textfield</string>
-			<key>variable</key>
-			<string>keyword2</string>
 		</dict>
 	</array>
 	<key>version</key>
