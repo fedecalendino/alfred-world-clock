@@ -6,19 +6,6 @@
 	<string>com.github.fedecalendino.alfred-world-clock</string>
 	<key>connections</key>
 	<dict>
-		<key>74C9B0B4-563E-4B9E-AB06-11A3157D63A1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>A045A16F-9199-47FD-B99A-D1C6AFDF7125</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>FAC9CF11-4629-4710-85E3-1651334E92C1</key>
 		<array>
 			<dict>
@@ -43,6 +30,25 @@
 	<string>World Clock</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>A045A16F-9199-47FD-B99A-D1C6AFDF7125</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -92,92 +98,17 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>A045A16F-9199-47FD-B99A-D1C6AFDF7125</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>{var:meet}</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>1</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>Calculating times…</string>
-				<key>script</key>
-				<string>/usr/bin/python3 ./dist/meet.py $@</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Display current time in different timezones</string>
-				<key>title</key>
-				<string>World Clock</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>74C9B0B4-563E-4B9E-AB06-11A3157D63A1</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Check time in multiple timezones. 🌐️</string>
 	<key>uidata</key>
 	<dict>
-		<key>74C9B0B4-563E-4B9E-AB06-11A3157D63A1</key>
-		<dict>
-			<key>xpos</key>
-			<real>35</real>
-			<key>ypos</key>
-			<real>160</real>
-		</dict>
 		<key>A045A16F-9199-47FD-B99A-D1C6AFDF7125</key>
 		<dict>
 			<key>xpos</key>
 			<real>280</real>
 			<key>ypos</key>
-			<real>95</real>
+			<real>30</real>
 		</dict>
 		<key>FAC9CF11-4629-4710-85E3-1651334E92C1</key>
 		<dict>

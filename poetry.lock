@@ -2,13 +2,13 @@
 
 [[package]]
 name = "alfred-pyflow"
-version = "0.4.5"
+version = "0.4.6"
 description = "Minimal library for the development of Alfred Workflows."
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "alfred_pyflow-0.4.5-py3-none-any.whl", hash = "sha256:00f173bd3a0ecd95bbc98b9fa0d1bbfea20caa108aaa6001db5888ff0723b08d"},
-    {file = "alfred_pyflow-0.4.5.tar.gz", hash = "sha256:45e4fe15b88246b76ce85825d712028ab4d35bdb109edee01833e7df2db3c1d6"},
+    {file = "alfred_pyflow-0.4.6-py3-none-any.whl", hash = "sha256:8754b203c481c89b9507805fd8e906057081868d6d00cb903f0c239bf05f3daa"},
+    {file = "alfred_pyflow-0.4.6.tar.gz", hash = "sha256:b622d6759017a29a041c1c33b52365a03f505406c1d2ae1232975a7ccb2a2f8b"},
 ]
 
 [package.dependencies]
@@ -269,13 +269,13 @@ files = [
 
 [[package]]
 name = "idna"
-version = "3.5"
+version = "3.6"
 description = "Internationalized Domain Names in Applications (IDNA)"
 optional = false
 python-versions = ">=3.5"
 files = [
-    {file = "idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a"},
-    {file = "idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08"},
+    {file = "idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f"},
+    {file = "idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"},
 ]
 
 [[package]]
@@ -399,4 +399,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "4e9ea6ae2c1f897730a2a80f8003e1807b68d4659b2472fcac7eb923c7a14782"
+content-hash = "83a09d8ea4be9fc8d0b1012da991c5e0255e4c20957033bba29d59434f9e49d5"

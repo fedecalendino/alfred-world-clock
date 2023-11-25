@@ -90,8 +90,17 @@ def get_timezones(workflow: Workflow, home_tz: str) -> Dict[str, datetime]:
 
 
 def get_home_offset_str(timezone: str, home_tz: str, now: datetime, home_now: datetime) -> str:
+    utc_offset = get_utc_offset(now)
+
+    if utc_offset == 0:
+        utc_offset_str = "UTC"
+    elif utc_offset > 0:
+        utc_offset_str = f"UTC +{utc_offset}"
+    else:
+        utc_offset_str = f"UTC {utc_offset}"
+
     if timezone == home_tz:
-        return ""
+        return f"({utc_offset_str})"
 
     now_tmp = now.replace(tzinfo=None)
     home_now_tmp = home_now.replace(tzinfo=None)
@@ -105,21 +114,15 @@ def get_home_offset_str(timezone: str, home_tz: str, now: datetime, home_now: da
         seconds = 24 * 60 * 60 - home_offset.seconds + 1
         text = "ahead of"
 
-    return "· [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
+    return "({utc_offset}) · [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
         hours=seconds // 3600,
         minutes=(seconds % 3600) // 60,
         text=text,
+        utc_offset=utc_offset_str,
     )
 
 
-def get_utc_offset(now: datetime) -> str:
+def get_utc_offset(now: datetime) -> int:
     utc_offset = now.utcoffset()
-    utc_offset_hours = round(utc_offset.days * 24 + utc_offset.seconds / 60 / 60)
 
-    if utc_offset_hours == 0:
-        return ""
-
-    if utc_offset_hours > 0:
-        return f" - UTC +{utc_offset_hours}"
-
-    return f" - UTC {utc_offset_hours}"
+    return round(utc_offset.days * 24 + utc_offset.seconds / 60 / 60)
