@@ -89,3 +89,28 @@ def get_timezones(workflow: Workflow, home_tz: str) -> Dict[str, datetime]:
         .astimezone(tz=tz.timezone(timezone))
         for timezone in timezones
     }
+
+
+def get_home_offset_str(
+    timezone: str, home_tz: str, now: datetime, home_now: datetime
+) -> str:
+    if timezone == home_tz:
+        return ""
+
+    now_tmp = now.replace(tzinfo=None)
+    home_now_tmp = home_now.replace(tzinfo=None)
+
+    if home_now_tmp > now_tmp:
+        home_offset = home_now_tmp - now_tmp
+        seconds = home_offset.seconds + 1
+        text = "behind"
+    else:
+        home_offset = home_now_tmp - now_tmp
+        seconds = 24 * 60 * 60 - home_offset.seconds + 1
+        text = "ahead of"
+
+    return "· [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
+        hours=seconds // 3600,
+        minutes=(seconds % 3600) // 60,
+        text=text,
+    )

@@ -98,7 +98,7 @@ def meet(workflow):
         location = timezone.split("/")[-1].replace("_", " ")
         location = name_replacements.get(location, location)
 
-        home_offset_str = get_home_offset_str(
+        home_offset_str = helpers.get_home_offset_str(
             timezone, home_tz, now, home_now
         ) + get_utc(timezone, now, home_tz)
 

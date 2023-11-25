@@ -1,8 +1,7 @@
 import sys
-from datetime import timedelta, datetime
+from datetime import timedelta
 from uuid import uuid4
 
-import pytz as tz
 from pyflow import Workflow
 
 import data
@@ -60,29 +59,6 @@ def get_utc(timezone, now, home_tz):
     return f" - UTC {utc_offset_hours}"
 
 
-def get_home_offset_str(timezone, home_tz, now, home_now) -> str:
-    if timezone == home_tz:
-        return ""
-
-    now_tmp = now.replace(tzinfo=None)
-    home_now_tmp = home_now.replace(tzinfo=None)
-
-    if home_now_tmp > now_tmp:
-        home_offset = home_now_tmp - now_tmp
-        seconds = home_offset.seconds + 1
-        text = "behind"
-    else:
-        home_offset = home_now_tmp - now_tmp
-        seconds = 24 * 60 * 60 - home_offset.seconds + 1
-        text = "ahead of"
-
-    return "· [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
-        hours=seconds // 3600,
-        minutes=(seconds % 3600) // 60,
-        text=text,
-    )
-
-
 def main(workflow: Workflow):
     home_tz, home_now = helpers.get_home(workflow)
     timezones = helpers.get_timezones(workflow, home_tz)
@@ -101,7 +77,7 @@ def main(workflow: Workflow):
         location = timezone.split("/")[-1].replace("_", " ")
         location = name_replacements.get(location, location)
 
-        home_offset_str = get_home_offset_str(
+        home_offset_str = helpers.get_home_offset_str(
             timezone, home_tz, now, home_now
         ) + get_utc(timezone, now, home_tz)
         now += timedelta(seconds=total_seconds)
