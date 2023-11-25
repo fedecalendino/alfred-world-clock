@@ -77,9 +77,7 @@ def main(workflow: Workflow):
         location = timezone.split("/")[-1].replace("_", " ")
         location = name_replacements.get(location, location)
 
-        home_offset_str = helpers.get_home_offset_str(
-            timezone, home_tz, now, home_now
-        ) + get_utc(timezone, now, home_tz)
+        home_offset_str = helpers.get_home_offset_str(timezone, home_tz, now, home_now) + get_utc(timezone, now, home_tz)
         now += timedelta(seconds=total_seconds)
 
         workflow.new_item(

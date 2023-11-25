@@ -48,21 +48,15 @@ def get_name_replacements(workflow: Workflow):
             continue
 
         if sep not in line:
-            raise ValueError(
-                f"name replacement '{line}' is missing the '{sep}' separator."
-            )
+            raise ValueError(f"name replacement '{line}' is missing the '{sep}' separator.")
 
         parts = line.split(sep)
 
         if len(parts) != 2:
-            raise ValueError(
-                f"name replacement '{line}' should have the format `old {sep} new`."
-            )
+            raise ValueError(f"name replacement '{line}' should have the format `old {sep} new`.")
 
         if "" in parts:
-            raise ValueError(
-                f"name replacement '{line}' should have the format `old {sep} new`."
-            )
+            raise ValueError(f"name replacement '{line}' should have the format `old {sep} new`.")
 
         old, new = parts
         name_replacements[old.strip()] = new.strip()
@@ -85,15 +79,17 @@ def get_timezones(workflow: Workflow, home_tz: str) -> Dict[str, datetime]:
 
     return {
         timezone: datetime.utcnow()
-        .replace(tzinfo=tz.utc)
-        .astimezone(tz=tz.timezone(timezone))
+        .replace(
+            tzinfo=tz.utc,
+        )
+        .astimezone(
+            tz=tz.timezone(timezone),
+        )
         for timezone in timezones
     }
 
 
-def get_home_offset_str(
-    timezone: str, home_tz: str, now: datetime, home_now: datetime
-) -> str:
+def get_home_offset_str(timezone: str, home_tz: str, now: datetime, home_now: datetime) -> str:
     if timezone == home_tz:
         return ""
 

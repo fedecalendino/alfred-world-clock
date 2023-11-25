@@ -53,12 +53,7 @@ def get_timezones_(workflow, home_tz):
 
     timezones.add(home_tz)
 
-    return {
-        timezone: handleinput()
-        .replace(tzinfo=tz.utc)
-        .astimezone(tz=tz.timezone(timezone))
-        for timezone in timezones
-    }
+    return {timezone: handleinput().replace(tzinfo=tz.utc).astimezone(tz=tz.timezone(timezone)) for timezone in timezones}
 
 
 def handleinput():
@@ -98,9 +93,7 @@ def meet(workflow):
         location = timezone.split("/")[-1].replace("_", " ")
         location = name_replacements.get(location, location)
 
-        home_offset_str = helpers.get_home_offset_str(
-            timezone, home_tz, now, home_now
-        ) + get_utc(timezone, now, home_tz)
+        home_offset_str = helpers.get_home_offset_str(timezone, home_tz, now, home_now) + get_utc(timezone, now, home_tz)
 
         # print(home_tz, home_now, now)
 

@@ -10,6 +10,9 @@ authors = [
     "Fede Calendino <fede@calendino.com>"
 ]
 
+[tool.black]
+line-length = 150
+
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
 alfred-pyflow = "^0.4.5"
