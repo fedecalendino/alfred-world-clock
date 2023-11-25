@@ -93,7 +93,7 @@ def meet(workflow):
         location = timezone.split("/")[-1].replace("_", " ")
         location = name_replacements.get(location, location)
 
-        home_offset_str = helpers.get_home_offset_str(timezone, home_tz, now, home_now) + get_utc(timezone, now, home_tz)
+        home_offset_str = helpers.get_home_offset_str(timezone, home_tz, now, home_now) + helpers.get_utc_offset(now)
 
         # print(home_tz, home_now, now)
 
@@ -104,7 +104,7 @@ def meet(workflow):
                 location=location,
                 home_offset=home_offset_str,
             ),
-            arg=formatter(now) + get_utc(timezone, now, home_tz),
+            arg=formatter(now) + helpers.get_utc_offset(now),
             copytext=formatter(now),
             valid=True,
             uid=str(uuid4()),

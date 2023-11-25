@@ -40,25 +40,6 @@ def add_time(arg):
     return total_seconds
 
 
-def get_utc(timezone, now, home_tz):
-    # if timezone == home_tz:
-    #     return "img/icons/home.png"
-
-    # if timezone == "UTC":
-    #     return "img/icons/utc.png"
-
-    utc_offset = now.utcoffset()
-    utc_offset_hours = round(utc_offset.days * 24 + utc_offset.seconds / 60 / 60)
-
-    if utc_offset_hours == 0:
-        return ""
-
-    if utc_offset_hours > 0:
-        return f" - UTC +{utc_offset_hours}"
-
-    return f" - UTC {utc_offset_hours}"
-
-
 def main(workflow: Workflow):
     home_tz, home_now = helpers.get_home(workflow)
     timezones = helpers.get_timezones(workflow, home_tz)
@@ -77,7 +58,7 @@ def main(workflow: Workflow):
         location = timezone.split("/")[-1].replace("_", " ")
         location = name_replacements.get(location, location)
 
-        home_offset_str = helpers.get_home_offset_str(timezone, home_tz, now, home_now) + get_utc(timezone, now, home_tz)
+        home_offset_str = helpers.get_home_offset_str(timezone, home_tz, now, home_now) + helpers.get_utc_offset(now)
         now += timedelta(seconds=total_seconds)
 
         workflow.new_item(
@@ -87,7 +68,7 @@ def main(workflow: Workflow):
                 location=location,
                 home_offset=home_offset_str,
             ),
-            arg=formatter(now) + get_utc(timezone, now, home_tz),
+            arg=formatter(now) + helpers.get_utc_offset(now),
             copytext=formatter(now),
             valid=True,
             uid=str(uuid4()),

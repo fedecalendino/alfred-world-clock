@@ -110,3 +110,16 @@ def get_home_offset_str(timezone: str, home_tz: str, now: datetime, home_now: da
         minutes=(seconds % 3600) // 60,
         text=text,
     )
+
+
+def get_utc_offset(now: datetime) -> str:
+    utc_offset = now.utcoffset()
+    utc_offset_hours = round(utc_offset.days * 24 + utc_offset.seconds / 60 / 60)
+
+    if utc_offset_hours == 0:
+        return ""
+
+    if utc_offset_hours > 0:
+        return f" - UTC +{utc_offset_hours}"
+
+    return f" - UTC {utc_offset_hours}"
