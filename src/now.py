@@ -41,27 +41,6 @@ def add_time(arg):
     return total_seconds
 
 
-def get_timezones(workflow, home_tz):
-    timezones = set(
-        map(
-            lambda item: item[0][3:].replace("__", "/"),
-            filter(
-                lambda item: item[0].startswith("TZ_") and item[1] == "1",
-                workflow.env.items(),
-            ),
-        )
-    )
-
-    timezones.add(home_tz)
-
-    return {
-        timezone: datetime.utcnow()
-        .replace(tzinfo=tz.utc)
-        .astimezone(tz=tz.timezone(timezone))
-        for timezone in timezones
-    }
-
-
 def get_utc(timezone, now, home_tz):
     # if timezone == home_tz:
     #     return "img/icons/home.png"
@@ -105,20 +84,18 @@ def get_home_offset_str(timezone, home_tz, now, home_now) -> str:
 
 
 def main(workflow: Workflow):
+    home_tz, home_now = helpers.get_home(workflow)
+    timezones = helpers.get_timezones(workflow, home_tz)
+    formatter = helpers.get_formatter(workflow)
+    name_replacements = helpers.get_name_replacements(workflow)
+    sorter = lambda pair: pair[1].isoformat()
+
     total_seconds = 0
     input = ""
     if len(sys.argv) > 1:
         arg = sys.argv[1]
         input = " " + sys.argv[1]
         total_seconds = add_time(arg)
-
-    home_tz, home_now = helpers.get_home(workflow)
-    timezones = get_timezones(workflow, home_tz)
-    formatter = helpers.get_formatter(workflow)
-
-    name_replacements = helpers.get_name_replacements(workflow)
-
-    sorter = lambda pair: pair[1].isoformat()
 
     for timezone, now in sorted(timezones.items(), key=sorter):
         location = timezone.split("/")[-1].replace("_", " ")

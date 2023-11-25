@@ -89,14 +89,9 @@ def handleinput():
 
 def meet(workflow):
     home_tz, home_now = get_home_(workflow)
-    timezones = get_timezones_(workflow, home_tz)
+    timezones = helpers.get_timezones(workflow, home_tz)
     formatter = helpers.get_formatter(workflow)
-
-    # with open('workflow.json', 'w') as json_file:
-    #     json.dump(workflow,json_file, sort_keys=False, indent=4, default=workflow_default)
-
     name_replacements = helpers.get_name_replacements(workflow)
-
     sorter = lambda pair: pair[1].isoformat()
 
     for timezone, now in sorted(timezones.items(), key=sorter):

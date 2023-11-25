@@ -1,4 +1,5 @@
 from datetime import datetime
+from typing import Dict, Tuple
 
 import pytz as tz
 from pyflow import Workflow
@@ -6,12 +7,12 @@ from pyflow import Workflow
 import formatters
 
 
-def get_formatter(workflow: Workflow):
+def get_formatter(workflow: Workflow) -> callable:
     timestamp_format = workflow.env.get("TIMESTAMP_FORMAT", "FORMAT_DEFAULT")
     return formatters.FORMATTERS[timestamp_format]
 
 
-def get_icon(timezone: str, now: datetime, home_tz: str):
+def get_icon(timezone: str, now: datetime, home_tz: str) -> str:
     if timezone == home_tz:
         return "img/icons/home.png"
 
@@ -23,7 +24,7 @@ def get_icon(timezone: str, now: datetime, home_tz: str):
     return f"img/icons/{utc_offset_hours}.png"
 
 
-def get_home(workflow: Workflow):
+def get_home(workflow: Workflow) -> Tuple[str, datetime]:
     home_tz = workflow.env["HOME"][3:].replace("__", "/")
 
     home_now = (
@@ -67,3 +68,24 @@ def get_name_replacements(workflow: Workflow):
         name_replacements[old.strip()] = new.strip()
 
     return name_replacements
+
+
+def get_timezones(workflow: Workflow, home_tz: str) -> Dict[str, datetime]:
+    timezones = set(
+        map(
+            lambda item: item[0][3:].replace("__", "/"),
+            filter(
+                lambda item: item[0].startswith("TZ_") and item[1] == "1",
+                workflow.env.items(),
+            ),
+        )
+    )
+
+    timezones.add(home_tz)
+
+    return {
+        timezone: datetime.utcnow()
+        .replace(tzinfo=tz.utc)
+        .astimezone(tz=tz.timezone(timezone))
+        for timezone in timezones
+    }
