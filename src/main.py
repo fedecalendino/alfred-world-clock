@@ -1,8 +1,9 @@
 import sys
 from datetime import datetime, timedelta
-from typing import List
+from typing import List, Tuple
 from uuid import uuid4
 
+import pytz
 from pyflow import Workflow
 from pytimeparse.timeparse import timeparse
 
@@ -12,16 +13,11 @@ import helpers
 
 
 # parse parameter to a set of valid time formats
-def convert_to_time(time_arg: str) -> datetime:
+def convert_to_time(time_arg: str) -> Tuple[int, int, int]:
     for format_str in ["%H:%M:%S", "%H:%M"]:
         try:
             time = datetime.strptime(time_arg, format_str)
-
-            return datetime.utcnow().replace(
-                hour=time.hour,
-                minute=time.minute,
-                second=time.second,
-            )
+            return time.hour, time.minute, time.second
         except ValueError:
             pass
 
@@ -29,16 +25,11 @@ def convert_to_time(time_arg: str) -> datetime:
 
 
 # parse parameter to a set of valid date formats
-def convert_to_date(date_arg: str) -> datetime:
+def convert_to_date(date_arg: str) -> Tuple[int, int, int]:
     for format_str in ["%d/%m/%Y", "%Y-%m-%d"]:
         try:
             date = datetime.strptime(date_arg, format_str)
-
-            return datetime.utcnow().replace(
-                day=date.day,
-                month=date.month,
-                year=date.year,
-            )
+            return date.day, date.month, date.year
         except ValueError:
             pass
 
@@ -55,52 +46,55 @@ def convert_to_delta(delta_arg: str) -> timedelta:
         raise ValueError("invalid time offset")
 
 
-# parse arguments to find in which mode the workflow is running
-def parse_args(args: List[str]) -> datetime:
+# parse arguments to find in which mode the workflow is running (always returns utc datetime)
+def parse_args(args: List[str], home_now: datetime) -> datetime:
     if len(args) > 2:
         raise ValueError("too many params, expected: [+offset] / [-offset] / [time] / [time date]")
 
-    now = datetime.utcnow()
-
     # mode now: shows current time
     if len(args) == 0:
-        return now
+        return datetime.utcnow()
 
     # mode offset: shows current time +/- a time offset
     if args[0][0] in "+-":
-        return now + convert_to_delta(args[0])
+        return datetime.utcnow() + convert_to_delta(args[0])
 
-    # mode set: shows especific date and time
-    time = convert_to_time(args[0])
+    # mode set: shows especific date and time as home
+    hour, minute, second = convert_to_time(args[0])
 
-    now = now.replace(
-        hour=time.hour,
-        minute=time.minute,
-        second=time.second,
+    now = home_now.replace(
+        hour=hour,
+        minute=minute,
+        second=second,
         microsecond=0,
     )
 
     if len(args) == 2:
-        date = convert_to_date(args[1])
+        day, month, year = convert_to_date(args[1])
 
         now = now.replace(
-            day=date.day,
-            month=date.month,
-            year=date.year,
+            day=day,
+            month=month,
+            year=year,
         )
 
-    return now
+    return now.astimezone(pytz.utc)
 
 
 def main(workflow: Workflow):
-    now = parse_args(workflow.args)
+    name_replacements = helpers.get_name_replacements(workflow)
+    formatter = helpers.get_formatter(workflow)
 
     home_tz, home_now = helpers.get_home(workflow)
-    timezones = helpers.get_timezones(workflow, now, home_tz)
-    formatter = helpers.get_formatter(workflow)
-    name_replacements = helpers.get_name_replacements(workflow)
+    utc_now = parse_args(workflow.args, home_now)
 
-    for timezone, now in sorted(timezones.items(), key=lambda pair: pair[1].isoformat()):
+    timezones = helpers.get_timezones(
+        workflow,
+        utc_now,
+        include=[home_tz],
+    )
+
+    for timezone, now in sorted(timezones.items(), key=lambda kw: kw[1].isoformat()):
         location = timezone.split("/")[-1].replace("_", " ")
         location = name_replacements.get(location, location)
 

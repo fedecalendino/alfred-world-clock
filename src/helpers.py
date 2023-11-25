@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import Dict, Tuple
+from typing import Dict, Tuple, List
 
 import pytz as tz
 from pyflow import Workflow
@@ -64,7 +64,7 @@ def get_name_replacements(workflow: Workflow):
     return name_replacements
 
 
-def get_timezones(workflow: Workflow, now: datetime, home_tz: str) -> Dict[str, datetime]:
+def get_timezones(workflow: Workflow, now: datetime, include: List[str] = None) -> Dict[str, datetime]:
     timezones = set(
         map(
             lambda item: item[0][3:].replace("__", "/"),
@@ -75,7 +75,7 @@ def get_timezones(workflow: Workflow, now: datetime, home_tz: str) -> Dict[str, 
         )
     )
 
-    timezones.add(home_tz)
+    timezones.update(include or [])
 
     return {
         timezone: now.replace(
