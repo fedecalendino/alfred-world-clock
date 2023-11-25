@@ -1,18 +1,4 @@
-import sys
-from datetime import timedelta, datetime
-from uuid import uuid4
-
-import pytz as tz
-from pyflow import Workflow
-
-import data
-import formatters
 from now import *
-import json
-
-from json import JSONEncoder
-
-# BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
 
 def workflow_default(obj):
@@ -104,12 +90,12 @@ def handleinput():
 def meet(workflow):
     home_tz, home_now = get_home_(workflow)
     timezones = get_timezones_(workflow, home_tz)
-    formatter = get_formatter(workflow)
+    formatter = helpers.get_formatter(workflow)
 
     # with open('workflow.json', 'w') as json_file:
     #     json.dump(workflow,json_file, sort_keys=False, indent=4, default=workflow_default)
 
-    name_replacements = get_name_replacements(workflow)
+    name_replacements = helpers.get_name_replacements(workflow)
 
     sorter = lambda pair: pair[1].isoformat()
 
@@ -135,7 +121,7 @@ def meet(workflow):
             valid=True,
             uid=str(uuid4()),
         ).set_icon_file(
-            path=get_icon(timezone, now, home_tz),
+            path=helpers.get_icon(timezone, now, home_tz),
         ).set_alt_mod(
             subtitle="Copy ISO format (with microseconds)",
             arg=formatters.iso8601(now),

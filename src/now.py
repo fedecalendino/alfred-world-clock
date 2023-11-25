@@ -7,6 +7,7 @@ from pyflow import Workflow
 
 import data
 import formatters
+import helpers
 
 
 def add_time(arg):
@@ -40,20 +41,6 @@ def add_time(arg):
     return total_seconds
 
 
-def get_home(workflow):
-    home_tz = workflow.env["HOME"][3:].replace("__", "/")
-
-    home_now = (
-        datetime.utcnow()
-        .replace(tzinfo=tz.utc)
-        .astimezone(
-            tz=tz.timezone(home_tz),
-        )
-    )
-
-    return home_tz, home_now
-
-
 def get_timezones(workflow, home_tz):
     timezones = set(
         map(
@@ -73,23 +60,6 @@ def get_timezones(workflow, home_tz):
         .astimezone(tz=tz.timezone(timezone))
         for timezone in timezones
     }
-
-
-def get_formatter(workflow):
-    timestamp_format = workflow.env.get("TIMESTAMP_FORMAT", "FORMAT_DEFAULT")
-    return formatters.FORMATTERS[timestamp_format]
-
-
-def get_icon(timezone, now, home_tz):
-    if timezone == home_tz:
-        return "img/icons/home.png"
-
-    if timezone == "UTC":
-        return "img/icons/utc.png"
-
-    utc_offset = now.utcoffset()
-    utc_offset_hours = round(utc_offset.days * 24 + utc_offset.seconds / 60 / 60)
-    return f"img/icons/{utc_offset_hours}.png"
 
 
 def get_utc(timezone, now, home_tz):
@@ -134,38 +104,6 @@ def get_home_offset_str(timezone, home_tz, now, home_now) -> str:
     )
 
 
-def get_name_replacements(workflow):
-    sep = "//"
-
-    name_replacements = {}
-
-    for line in workflow.env.get("NAME_REPLACEMENTS", "").split("\n"):
-        if not line:
-            continue
-
-        if sep not in line:
-            raise ValueError(
-                f"name replacement '{line}' is missing the '{sep}' separator."
-            )
-
-        parts = line.split(sep)
-
-        if len(parts) != 2:
-            raise ValueError(
-                f"name replacement '{line}' should have the format `old {sep} new`."
-            )
-
-        if "" in parts:
-            raise ValueError(
-                f"name replacement '{line}' should have the format `old {sep} new`."
-            )
-
-        old, new = parts
-        name_replacements[old.strip()] = new.strip()
-
-    return name_replacements
-
-
 def main(workflow: Workflow):
     total_seconds = 0
     input = ""
@@ -174,11 +112,11 @@ def main(workflow: Workflow):
         input = " " + sys.argv[1]
         total_seconds = add_time(arg)
 
-    home_tz, home_now = get_home(workflow)
+    home_tz, home_now = helpers.get_home(workflow)
     timezones = get_timezones(workflow, home_tz)
-    formatter = get_formatter(workflow)
+    formatter = helpers.get_formatter(workflow)
 
-    name_replacements = get_name_replacements(workflow)
+    name_replacements = helpers.get_name_replacements(workflow)
 
     sorter = lambda pair: pair[1].isoformat()
 
@@ -203,7 +141,7 @@ def main(workflow: Workflow):
             valid=True,
             uid=str(uuid4()),
         ).set_icon_file(
-            path=get_icon(timezone, now, home_tz),
+            path=helpers.get_icon(timezone, now, home_tz),
         ).set_alt_mod(
             subtitle="Copy ISO format (with microseconds)",
             arg=formatters.iso8601(now),
