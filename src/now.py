@@ -10,19 +10,19 @@ import formatters
 
 
 def add_time(arg):
-    if arg[0] == '-':
+    if arg[0] == "-":
         is_negative = True
         arg = arg[1:]
     else:
         is_negative = False
 
-    if len(arg) == 0 or (len(arg.strip()) == 1 and arg.startswith('+')):
+    if len(arg) == 0 or (len(arg.strip()) == 1 and arg.startswith("+")):
         return 0
 
-    if arg.endswith(':'):
+    if arg.endswith(":"):
         arg = arg[:-1]
 
-    arg = arg.split(':')
+    arg = arg.split(":")
 
     if len(arg) == 3:
         hr, minute, sec = arg
@@ -91,6 +91,7 @@ def get_icon(timezone, now, home_tz):
     utc_offset_hours = round(utc_offset.days * 24 + utc_offset.seconds / 60 / 60)
     return f"img/icons/{utc_offset_hours}.png"
 
+
 def get_utc(timezone, now, home_tz):
     # if timezone == home_tz:
     #     return "img/icons/home.png"
@@ -100,20 +101,20 @@ def get_utc(timezone, now, home_tz):
 
     utc_offset = now.utcoffset()
     utc_offset_hours = round(utc_offset.days * 24 + utc_offset.seconds / 60 / 60)
-    
+
     if utc_offset_hours == 0:
         return ""
-    
+
     if utc_offset_hours > 0:
         return f" - UTC +{utc_offset_hours}"
-    
+
     return f" - UTC {utc_offset_hours}"
 
 
 def get_home_offset_str(timezone, home_tz, now, home_now) -> str:
     if timezone == home_tz:
         return ""
-    
+
     now_tmp = now.replace(tzinfo=None)
     home_now_tmp = home_now.replace(tzinfo=None)
 
@@ -165,13 +166,12 @@ def get_name_replacements(workflow):
     return name_replacements
 
 
-def main(workflow):
-
+def main(workflow: Workflow):
     total_seconds = 0
-    input = ''
+    input = ""
     if len(sys.argv) > 1:
         arg = sys.argv[1]
-        input = ' ' + sys.argv[1]
+        input = " " + sys.argv[1]
         total_seconds = add_time(arg)
 
     home_tz, home_now = get_home(workflow)
@@ -186,7 +186,9 @@ def main(workflow):
         location = timezone.split("/")[-1].replace("_", " ")
         location = name_replacements.get(location, location)
 
-        home_offset_str = get_home_offset_str(timezone, home_tz, now, home_now) + get_utc(timezone, now, home_tz)
+        home_offset_str = get_home_offset_str(
+            timezone, home_tz, now, home_now
+        ) + get_utc(timezone, now, home_tz)
         now += timedelta(seconds=total_seconds)
 
         workflow.new_item(
@@ -209,6 +211,7 @@ def main(workflow):
             subtitle="Copy ISO format (without microseconds)",
             arg=formatters.iso8601_without_microseconds(now),
         )
+
 
 if __name__ == "__main__":
     wf = Workflow()

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "World Clock"
-version = "2.2.1"
+version = "2.3.0"
 description = "Check time in multiple timezones."
 documentation = "https://github.com/fedecalendino/alfred-world-clock/blob/main/README.md"
 homepage = "https://github.com/fedecalendino/alfred-world-clock"

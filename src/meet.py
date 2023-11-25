@@ -7,32 +7,34 @@ from pyflow import Workflow
 
 import data
 import formatters
-from main import *
+from now import *
 import json
 
 from json import JSONEncoder
 
-#BASE_DIR = os.path.dirname(os.path.realpath(__file__))
+# BASE_DIR = os.path.dirname(os.path.realpath(__file__))
+
 
 def workflow_default(obj):
     if isinstance(obj, Workflow):
         return obj.__dict__
     else:
         pass
-        #raise TypeError("Object of type {} is not JSON serializable".format(type(obj)))
+        # raise TypeError("Object of type {} is not JSON serializable".format(type(obj)))
 
 
 def convert_to_datetime(arg):
     formats = ["%H:%M:%S", "%H:%M:%S %d-%m-%Y"]
-    
+
     for format_str in formats:
         try:
             return datetime.strptime(arg, format_str)
         except ValueError:
             pass
-    
+
     print("Invalid datetime format")
     return None
+
 
 def get_home_(workflow):
     home_tz = workflow.env["HOME"][3:].replace("__", "/")
@@ -47,7 +49,7 @@ def get_home_(workflow):
 
     home_now = handleinput()
 
-    #print(home_tz, home_now)
+    # print(home_tz, home_now)
 
     return home_tz, home_now
 
@@ -79,20 +81,27 @@ def handleinput():
         if input_datetime:
             # If no date is provided, use today's date
             if len(sys.argv) == 2:
-                input_datetime = datetime.now().replace(hour=input_datetime.hour, minute=input_datetime.minute, second=input_datetime.second)
+                input_datetime = datetime.now().replace(
+                    hour=input_datetime.hour,
+                    minute=input_datetime.minute,
+                    second=input_datetime.second,
+                )
             else:
                 # If a date is provided, use that date
-                input_datetime = input_datetime.replace(year=int(sys.argv[2].split('-')[2]), month=int(sys.argv[2].split('-')[1]), day=int(sys.argv[2].split('-')[0]))
-            #print("Converted datetime:", input_datetime.strftime("%Y-%m-%d %H:%M:%S"))
+                input_datetime = input_datetime.replace(
+                    year=int(sys.argv[2].split("-")[2]),
+                    month=int(sys.argv[2].split("-")[1]),
+                    day=int(sys.argv[2].split("-")[0]),
+                )
+            # print("Converted datetime:", input_datetime.strftime("%Y-%m-%d %H:%M:%S"))
     else:
         return datetime.now()
-        #print("Please provide a datetime string as a command-line argument.")
+        # print("Please provide a datetime string as a command-line argument.")
 
     return input_datetime
 
 
 def meet(workflow):
-
     home_tz, home_now = get_home_(workflow)
     timezones = get_timezones_(workflow, home_tz)
     formatter = get_formatter(workflow)
@@ -108,9 +117,11 @@ def meet(workflow):
         location = timezone.split("/")[-1].replace("_", " ")
         location = name_replacements.get(location, location)
 
-        home_offset_str = get_home_offset_str(timezone, home_tz, now, home_now) + get_utc(timezone, now, home_tz)
+        home_offset_str = get_home_offset_str(
+            timezone, home_tz, now, home_now
+        ) + get_utc(timezone, now, home_tz)
 
-        #print(home_tz, home_now, now)
+        # print(home_tz, home_now, now)
 
         workflow.new_item(
             title=formatter(now),
@@ -133,9 +144,10 @@ def meet(workflow):
             arg=formatters.iso8601_without_microseconds(now),
         )
 
+
 if __name__ == "__main__":
     wf = Workflow()
-    #wf.save_env()
+    # wf.save_env()
     wf.run(meet)
     wf.send_feedback()
     sys.exit()

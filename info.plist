@@ -4,15 +4,13 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.github.fedecalendino.alfred-world-clock</string>
-	<key>category</key>
-	<string>Internet</string>
 	<key>connections</key>
 	<dict>
 		<key>74C9B0B4-563E-4B9E-AB06-11A3157D63A1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2FA65F99-0AC5-4479-B3B8-6FF41B2C9982</string>
+				<string>A045A16F-9199-47FD-B99A-D1C6AFDF7125</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -48,6 +46,55 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:now}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Calculating times…</string>
+				<key>script</key>
+				<string>/usr/bin/python3 ./dist/now.py $@</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Display current time in different timezones</string>
+				<key>title</key>
+				<string>World Clock</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FAC9CF11-4629-4710-85E3-1651334E92C1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
@@ -80,56 +127,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>{var:keyword}</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>1</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>Calculating times…</string>
-				<key>script</key>
-				<string>/usr/bin/python3 ./dist/main.py $@</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Display current time in different timezones</string>
-				<key>title</key>
-				<string>World Clock</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>FAC9CF11-4629-4710-85E3-1651334E92C1</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>{var:keyword2}</string>
+				<string>{var:meet}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -162,57 +160,31 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>2FA65F99-0AC5-4479-B3B8-6FF41B2C9982</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Check time in multiple timezones. 🌐️</string>
 	<key>uidata</key>
 	<dict>
-		<key>2FA65F99-0AC5-4479-B3B8-6FF41B2C9982</key>
-		<dict>
-			<key>xpos</key>
-			<real>620</real>
-			<key>ypos</key>
-			<real>305</real>
-		</dict>
 		<key>74C9B0B4-563E-4B9E-AB06-11A3157D63A1</key>
 		<dict>
 			<key>xpos</key>
-			<real>370</real>
+			<real>35</real>
 			<key>ypos</key>
-			<real>305</real>
+			<real>160</real>
 		</dict>
 		<key>A045A16F-9199-47FD-B99A-D1C6AFDF7125</key>
 		<dict>
 			<key>xpos</key>
-			<real>610</real>
+			<real>280</real>
 			<key>ypos</key>
-			<real>165</real>
+			<real>95</real>
 		</dict>
 		<key>FAC9CF11-4629-4710-85E3-1651334E92C1</key>
 		<dict>
 			<key>xpos</key>
-			<real>360</real>
+			<real>35</real>
 			<key>ypos</key>
-			<real>165</real>
+			<real>30</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -232,11 +204,11 @@
 			<key>description</key>
 			<string>Keyword to check time in multiple timezones.</string>
 			<key>label</key>
-			<string>Clock Keyword</string>
+			<string>Now Keyword</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>keyword</string>
+			<string>now</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -251,13 +223,13 @@
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Keyword a specific time in multiple timezones.</string>
 			<key>label</key>
-			<string></string>
+			<string>Meet Keyword</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>keyword2</string>
+			<string>meet</string>
 		</dict>
 		<dict>
 			<key>config</key>
