@@ -64,7 +64,7 @@ def get_name_replacements(workflow: Workflow):
     return name_replacements
 
 
-def get_timezones(workflow: Workflow, home_tz: str) -> Dict[str, datetime]:
+def get_timezones(workflow: Workflow, now: datetime, home_tz: str) -> Dict[str, datetime]:
     timezones = set(
         map(
             lambda item: item[0][3:].replace("__", "/"),
@@ -78,11 +78,9 @@ def get_timezones(workflow: Workflow, home_tz: str) -> Dict[str, datetime]:
     timezones.add(home_tz)
 
     return {
-        timezone: datetime.utcnow()
-        .replace(
+        timezone: now.replace(
             tzinfo=tz.utc,
-        )
-        .astimezone(
+        ).astimezone(
             tz=tz.timezone(timezone),
         )
         for timezone in timezones
