@@ -82,7 +82,7 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Also check "{var:meet}" and "{var:offset}".</string>
 				<key>script</key>
 				<string>/usr/bin/python3 ./dist/main.py $@</string>
 				<key>scriptargtype</key>
@@ -90,9 +90,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>check the current time in multiple timezones.</string>
+				<string>Also check "{var:meet}" and "{var:offset}".</string>
 				<key>title</key>
-				<string>World Clock</string>
+				<string>World Clock: check the current time in multiple timezones</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -150,7 +150,7 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Also check "{var:now}" and "{var:offset}".</string>
 				<key>script</key>
 				<string>/usr/bin/python3 ./dist/main.py $@</string>
 				<key>scriptargtype</key>
@@ -199,7 +199,7 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Also check "{var:now}" and "{var:meet}".</string>
 				<key>script</key>
 				<string>/usr/bin/python3 ./dist/main.py $@</string>
 				<key>scriptargtype</key>
@@ -207,7 +207,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>for example: {var:offset} 2h30m / {var:offset} 1d12h</string>
+				<string>for example: {var:offset} +2h30m / {var:offset} -1d12h</string>
 				<key>title</key>
 				<string>World Clock: check the current time (with an offset) in multiple timezones</string>
 				<key>type</key>

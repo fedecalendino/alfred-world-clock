@@ -9,28 +9,18 @@
 #### Configuration:
 
 ![vars example](screenshots/config.png)
-![vars example](screenshots/config_format.png)
+
+##### Friendly names
+![friendly names](screenshots/friendly-names.png)
 
 
 #### Usage:
 
-##### Default Format
-![default](screenshots/usage.png)
+##### Now
+![now](screenshots/now.png)
 
-- Hold `alt` to copy ISO with microseconds
-![alt modifier](screenshots/usage_alt.png)
+##### Meet
+![meet](screenshots/meet.png)
 
-- Hold `cmd` to copy ISO without microseconds
-![cmd modifier](screenshots/usage_cmd.png)
-
-##### AM/PM format
-![ampm](screenshots/usage_ampm.png)
-
-##### ISO Format (with microseconds)
-![iso with microseconds](screenshots/usage_iso_with_microseconds.png)
-
-##### ISO Format (without microseconds)
-![iso without microseconds](screenshots/usage_iso_without_microseconds.png)
-
-#### Friendly names
-![friendly names](screenshots/friendly_names.png)
+##### Offset
+![offset](screenshots/offset.png)
