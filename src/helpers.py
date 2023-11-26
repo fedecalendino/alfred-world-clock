@@ -87,7 +87,7 @@ def get_timezones(workflow: Workflow, now: datetime, include: List[str] = None) 
     }
 
 
-def get_home_offset_str(timezone: str, home_tz: str, now: datetime, home_now: datetime) -> str:
+def get_home_offset_str(timezone: str, home_tz: str, now: datetime, home_now: datetime, utc: bool = False) -> str:
     utc_offset = get_utc_offset(now)
 
     if utc_offset == 0:
@@ -112,12 +112,17 @@ def get_home_offset_str(timezone: str, home_tz: str, now: datetime, home_now: da
         seconds = 24 * 60 * 60 - home_offset.seconds + 1
         text = "ahead of"
 
-    return "({utc_offset}) · [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
-        hours=seconds // 3600,
-        minutes=(seconds % 3600) // 60,
-        text=text,
-        utc_offset=utc_offset_str,
-    )
+    if not utc:
+        return "({utc_offset}) · [{hours:02}:{minutes:02} hs {text} home 🏠]".format(
+            hours=seconds // 3600,
+            minutes=(seconds % 3600) // 60,
+            text=text,
+            utc_offset=utc_offset_str,
+        )
+    else:
+        return "({utc_offset})".format(
+            utc_offset=utc_offset_str,
+        )
 
 
 def get_utc_offset(now: datetime) -> int:
