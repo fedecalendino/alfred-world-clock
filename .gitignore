@@ -8,7 +8,6 @@ prefs.plist
 bin/
 build/
 dist/
-dist-org/
 releases/
 
 .venv/
