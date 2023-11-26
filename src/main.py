@@ -110,12 +110,17 @@ def main(workflow: Workflow):
                     home_now=home_now,
                 ),
             ),
-            arg=formatter(now) + helpers.get_home_offset_str(
+            arg="{now} {flag} {location} {home_offset}".format(
+                now = formatter(now), 
+                flag = data.flags.get(timezone, "🌐"),
+                location = location, 
+                home_offset = helpers.get_home_offset_str(
                     timezone=timezone,
                     home_tz=home_tz,
                     now=now,
                     home_now=home_now,
                     utc=True
+                    )
                 ),
             copytext=formatter(now),
             valid=True,
