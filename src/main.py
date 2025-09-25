@@ -12,16 +12,17 @@ import formatters
 import helpers
 
 
-# parse parameter to a set of valid time formats
+# parse parameter to a set of valid time formats  
 def convert_to_time(time_arg: str) -> Tuple[int, int, int]:
-    for format_str in ["%H:%M:%S", "%H:%M"]:
+    # Order by string length (shortest first) to ensure exact matches
+    for format_str in ["%H%M", "%H:%M", "%H%M%S", "%H:%M:%S"]:
         try:
             time = datetime.strptime(time_arg, format_str)
             return time.hour, time.minute, time.second
         except ValueError:
-            pass
+            continue
 
-    raise ValueError(f"'{time_arg}' should follow the formats 'HH:MM:SS' or 'HH:MM'")
+    raise ValueError(f"'{time_arg}' should follow the formats 'HH:MM:SS', 'HH:MM', 'HHMMSS', or 'HHMM'")
 
 
 # parse parameter to a set of valid date formats
